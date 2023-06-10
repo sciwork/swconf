@@ -1,0 +1,17 @@
+{
+  "trailingComma": "all",
+  "singleQuote": true,
+  "semi": true,
+  "importOrder": [
+    "next/(.*)$",
+    "^react$",
+    "^react-dom$",
+    "^@fortawesome/(.*)$",
+    "^@/configurations/(.*)$",
+    "^@/components/(.*)$",
+    "^@/contents/(.*)$",
+    "^@/assets/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSortSpecifiers": true
+}
