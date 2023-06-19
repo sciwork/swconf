@@ -34,7 +34,7 @@ const Header = ({ className }: Props) => {
               </NavLink>
             ))}
         </div>
-        <Button variant="danger" to="/register" target="_blank">
+        <Button variant="danger" to="/register" target="_blank" className="tw-hidden">
           Register
         </Button>
       </nav>
