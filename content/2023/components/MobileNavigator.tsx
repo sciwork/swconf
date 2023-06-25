@@ -15,11 +15,11 @@ const MobileNavigator = () => {
   return (
     <>
       <Button onClick={toggleMenu}>
-        <FontAwesomeIcon icon={faBars} />
+        <FontAwesomeIcon className="tw-text-white" icon={faBars} />
       </Button>
       <Drawer show={isMenuOpen} onClick={toggleMenu}>
         <div className="tw-border-b tw-px-4 tw-pb-2 tw-pt-3">
-          <Logo />
+          <Logo variant="light" />
         </div>
         <div>
           {routes
