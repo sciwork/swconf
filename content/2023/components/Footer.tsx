@@ -1,5 +1,5 @@
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faPaperPlane } from '@fortawesome/free-solid-svg-icons';
+import { faTwitter, faDiscord } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import Container from '@/components/Container';
 import SocialLink from '@/components/SocialLink';
 
@@ -13,7 +13,7 @@ const Footer = () => {
             icon={faTwitter}
             to="https://twitter.com/intent/tweet?screen_name=sciwork&ref_src=twsrc%5Etfw"
           />
-          <SocialLink icon={faPaperPlane} to="https://t.me/sciwork2020" />
+          <SocialLink icon={faDiscord} to="https://discord.gg/6MAkFrD" />
           <SocialLink icon={faEnvelope} to="mailto:contact@sciwork.dev" />
         </div>
       </Container>

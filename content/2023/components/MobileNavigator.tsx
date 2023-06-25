@@ -18,10 +18,13 @@ const MobileNavigator = () => {
         <FontAwesomeIcon className="tw-text-white" icon={faBars} />
       </Button>
       <Drawer show={isMenuOpen} onClick={toggleMenu}>
-        <div className="tw-border-b tw-px-4 tw-pb-2 tw-pt-3">
+        <div
+          className="tw-border-b tw-px-4 tw-pb-2 tw-pt-3"
+          onClick={toggleMenu}
+        >
           <Logo variant="light" />
         </div>
-        <div>
+        <div onClick={toggleMenu}>
           {routes
             .filter((route) => !route.disabled)
             .map((route) => (
