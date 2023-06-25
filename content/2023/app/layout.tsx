@@ -26,7 +26,7 @@ export async function generateMetadata() {
     openGraph: {
       title: 'sciwork 2023',
       description: 'Science, code, and open source.',
-      url: 'https://conf.sciwork.dev/2023',
+      url: process.env.SITEURL,
       siteName: 'sciwork 2023',
       images: [
         {

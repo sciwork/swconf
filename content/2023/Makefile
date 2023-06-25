@@ -4,6 +4,8 @@ PELICANOPTS=-t mytheme
 BASEDIR=$(CURDIR)
 OUTPUTDIR=output
 OUTPUTDIR_PATH=$(BASEDIR)/$(OUTPUTDIR)
+PORT?=8000
+SITEURL?=http://localhost:$(PORT)
 
 help:
 	@echo 'Makefile for a nextjs Web site                                                    '
@@ -16,24 +18,16 @@ help:
 	@echo ''
 
 html:
-	OUTPUTDIR=$(OUTPUTDIR) $(YARN) build
+	OUTPUTDIR=$(OUTPUTDIR) SITEURL=$(SITEURL) $(YARN) build
 
 clean:
 	[ ! -d $(OUTPUTDIR_PATH) ] || rm -rf $(OUTPUTDIR_PATH)
 
 serve:
-ifdef PORT
-	$(YARN) start -p $(PORT)
-else
-	$(YARN) start -p 8000
-endif
+	SITEURL=$(SITEURL) $(YARN) start -p $(PORT)
 
 devserver:
-ifdef PORT
-	$(YARN) dev -p $(PORT)
-else
-	$(YARN) dev -p 8000
-endif
+	SITEURL=$(SITEURL) $(YARN) dev -p $(PORT)
 
 
 .PHONY: html help clean serve devserver
