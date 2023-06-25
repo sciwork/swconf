@@ -99,7 +99,7 @@ const Banner = () => {
       ></canvas>
       <Image className="tw-h-36 tw-w-36" src={iconImg} alt="sciwork icon" />
       <div className="tw-prose-lg tw-text-center tw-font-yk tw-text-white tablet:tw-prose-2xl">
-        <h1 className="tw-mb-2">sciwork</h1>
+        <h1 className="tw-mb-2">sciwork 2023</h1>
         {/* <h3 className="tw-mt-0">TBD | Taipei</h3> */}
       </div>
     </div>

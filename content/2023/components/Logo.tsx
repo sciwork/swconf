@@ -15,7 +15,7 @@ const Logo = ({ variant = 'dark' }: Props) => (
         'tw-text-neutral-950': variant === 'light',
       })}
     >
-      sciwork
+      sciwork 2023
     </div>
   </a>
 );
