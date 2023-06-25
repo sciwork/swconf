@@ -14,7 +14,7 @@ const Header = ({ className }: Props) => {
   return (
     <header className={className}>
       <nav
-        className="tw-flex tw-h-20 tw-items-center tw-bg-white tw-px-6"
+        className="tw-flex tw-h-20 tw-items-center tw-bg-black tw-px-6"
         role="navigation"
       >
         <div className="tw-grow">
@@ -34,7 +34,12 @@ const Header = ({ className }: Props) => {
               </NavLink>
             ))}
         </div>
-        <Button variant="danger" to="/register" target="_blank" className="tw-hidden">
+        <Button
+          variant="danger"
+          to="/register"
+          target="_blank"
+          className="tw-hidden"
+        >
           Register
         </Button>
       </nav>

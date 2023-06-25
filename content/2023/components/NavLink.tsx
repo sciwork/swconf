@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import clsx from "clsx";
-import NextLink from "next/link";
-import { usePathname } from "next/navigation";
+import clsx from 'clsx';
+import NextLink from 'next/link';
+import { usePathname } from 'next/navigation';
 
 const Link = ({ children, to }: { children: React.ReactNode; to: string }) => {
   const pathname = usePathname();
@@ -10,10 +10,11 @@ const Link = ({ children, to }: { children: React.ReactNode; to: string }) => {
   return (
     <NextLink
       className={clsx(
-        "tw-text-base tw-font-medium tw-leading-loose tw-text-neutral-900 hover:tw-text-red-800",
+        'tw-text-base tw-font-medium tw-leading-loose hover:tw-text-red-600',
         {
-          "tw-text-red-800": isActive,
-        }
+          'tw-text-red-600': isActive,
+          'tw-text-white': !isActive,
+        },
       )}
       href={to}
     >
