@@ -84,7 +84,7 @@ export default function RootLayout({
           yanone.variable,
         )}
       >
-        <Header className="tw-sticky tw-top-0 tw-z-10" />
+        <Header className="tw-fixed tw-top-0 tw-z-10" />
         <main className="tw-grow">{children}</main>
         <Footer />
         <div id="portal" />

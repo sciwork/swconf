@@ -89,7 +89,10 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="tw-relative tw-flex tw-h-96 tw-flex-col tw-items-center tw-justify-center tw-gap-x-20 tw-gap-y-10 tw-bg-black tablet:tw-flex-row">
+    <div
+      id="banner"
+      className="tw-relative tw-flex tw-h-96 tw-flex-col tw-items-center tw-justify-center tw-gap-x-20 tw-gap-y-10 tw-bg-black tablet:tw-flex-row"
+    >
       <canvas
         className="tw-absolute tw-h-full tw-w-full"
         ref={canvasRef}
