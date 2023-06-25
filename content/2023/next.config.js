@@ -6,7 +6,7 @@ const nextConfig = {
   output: 'export',
   distDir: process.env.OUTPUTDIR,
   images: {
-    unoptimized: true
+    unoptimized: true,
   },
 };
 
