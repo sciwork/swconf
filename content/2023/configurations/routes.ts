@@ -11,7 +11,6 @@ const routes = [
   {
     path: '/sponsors',
     name: 'Sponsors',
-    disabled: true,
   },
   {
     path: '/venue',
