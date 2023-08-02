@@ -5,7 +5,7 @@ import Content from '@/contents/home.mdx';
 export default function Home() {
   return (
     <>
-      <Banner />
+      <Banner title="sciwork 2023" showIcon />
       <Article>
         <Content />
       </Article>
