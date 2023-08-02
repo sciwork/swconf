@@ -4,7 +4,13 @@ import Image from 'next/image';
 import { useEffect, useRef } from 'react';
 import iconImg from '@/assets/android-chrome-512x512.png';
 
-const Banner = () => {
+type Props = {
+  showIcon?: boolean;
+  title: string;
+  children?: React.ReactNode;
+};
+
+const Banner = ({ showIcon, title, children }: Props) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
@@ -97,9 +103,12 @@ const Banner = () => {
         className="tw-absolute tw-h-full tw-w-full"
         ref={canvasRef}
       ></canvas>
-      <Image className="tw-h-36 tw-w-36" src={iconImg} alt="sciwork icon" />
-      <div className="tw-prose-lg tw-text-center tw-font-yk tw-text-white tablet:tw-prose-2xl">
-        <h1 className="tw-mb-2">sciwork 2023</h1>
+      {showIcon && (
+        <Image className="tw-h-36 tw-w-36" src={iconImg} alt="sciwork icon" />
+      )}
+      <div className="tw-prose-lg tw-text-center tw-font-yk tw-text-white tablet:tw-prose-2xl tw-z-10">
+        <h1 className="tw-mb-2">{title}</h1>
+        {children}
         {/* <h3 className="tw-mt-0">TBD | Taipei</h3> */}
       </div>
     </div>
