@@ -23,6 +23,7 @@ export async function generateMetadata() {
       template: 'sciwork 2023 - %s',
     },
     description: 'Science, code, and open source.',
+    metadataBase: process.env.SITEURL && new URL(process.env.SITEURL),
     openGraph: {
       title: 'sciwork 2023',
       description: 'Science, code, and open source.',
