@@ -4,6 +4,10 @@ const routes = [
     name: 'Welcome',
   },
   {
+    path: '/cfp',
+    name: 'CFP',
+  },
+  {
     path: '/program',
     name: 'Program',
     disabled: true,
