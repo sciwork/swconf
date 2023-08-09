@@ -2,6 +2,7 @@ import clsx from 'clsx';
 import { Inter, Yanone_Kaffeesatz } from 'next/font/google';
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
+import BannerWrapper from '@/components/BannerWrapper';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import './globals.css';
@@ -85,6 +86,7 @@ export default function RootLayout({
         )}
       >
         <Header className="tw-fixed tw-top-0 tw-z-10" />
+        <BannerWrapper />
         <main className="tw-grow">{children}</main>
         <Footer />
         <div id="portal" />

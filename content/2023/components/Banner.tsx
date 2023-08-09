@@ -4,13 +4,13 @@ import Image from 'next/image';
 import { useEffect, useRef } from 'react';
 import iconImg from '@/assets/android-chrome-512x512.png';
 
-type Props = {
+export type BannerProps = {
   showIcon?: boolean;
   title: string;
   children?: React.ReactNode;
 };
 
-const Banner = ({ showIcon, title, children }: Props) => {
+const Banner = ({ showIcon, title, children }: BannerProps) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
