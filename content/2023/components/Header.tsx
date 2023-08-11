@@ -3,6 +3,7 @@
 import clsx from 'clsx';
 import { usePathname } from 'next/navigation';
 import { useEffect, useLayoutEffect, useState } from 'react';
+import { isPageHasBanner } from '@/configurations/banners';
 import routes from '@/configurations/routes';
 import Button from '@/components/Button';
 import Logo from '@/components/Logo';
@@ -21,22 +22,22 @@ const isHeaderOverBanner = () => {
 
   if (!headerEl || !bannerEl) return false;
 
-  return window.scrollY >= bannerEl.offsetHeight - headerEl.offsetHeight;
+  return window.scrollY >= (bannerEl.offsetHeight - headerEl.offsetHeight) / 2;
 };
 
 const Header = ({ className }: Props) => {
   const pathname = usePathname();
-  const atHome = pathname === '/';
+  const showBanner = isPageHasBanner(pathname);
   const [showDarkBackground, setShowDarkBackground] = useState(false);
 
   useLayoutEffect(() => {
-    if (!atHome) return;
+    if (!showBanner) return;
 
     setShowDarkBackground(isHeaderOverBanner());
-  }, [atHome]);
+  }, [showBanner]);
 
   useEffect(() => {
-    if (!atHome) return;
+    if (!showBanner) return;
 
     const handleScroll = () => {
       setShowDarkBackground(isHeaderOverBanner());
@@ -45,14 +46,14 @@ const Header = ({ className }: Props) => {
     window.addEventListener('scroll', handleScroll);
 
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [atHome]);
+  }, [showBanner]);
 
   return (
-    <header id="header" className={clsx('tw-w-full', className)}>
+    <header id="header" className={clsx('tw-w-full tw-z-20', className)}>
       <nav
         className={clsx('tw-flex tw-h-20 tw-items-center tw-px-6', {
-          'tw-bg-black': !atHome || showDarkBackground,
-          'tw-bg-transparent': atHome && !showDarkBackground,
+          'tw-bg-black': !showBanner || showDarkBackground,
+          'tw-bg-transparent': showBanner && !showDarkBackground,
         })}
         role="navigation"
       >
