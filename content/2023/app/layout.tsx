@@ -5,6 +5,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import BannerWrapper from '@/components/BannerWrapper';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
+import LocaleProvider from '@/contexts/locales';
 import './globals.css';
 
 config.autoAddCss = false;
@@ -86,11 +87,13 @@ export default function RootLayout({
           yanone.variable,
         )}
       >
-        <Header className="tw-fixed tw-top-0 tw-z-10" />
-        <BannerWrapper />
-        <main className="tw-grow">{children}</main>
-        <Footer />
-        <div id="portal" />
+        <LocaleProvider>
+          <Header className="tw-fixed tw-top-0 tw-z-10" />
+          <BannerWrapper />
+          <main className="tw-grow">{children}</main>
+          <Footer />
+          <div id="portal" />
+        </LocaleProvider>
       </body>
     </html>
   );
