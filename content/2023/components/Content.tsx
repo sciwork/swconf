@@ -2,7 +2,8 @@
 
 import dynamic from 'next/dynamic';
 import { useContext } from 'react';
-import { LocaleContext } from '@/contexts/locales';
+import { UNKNOWN_LOCALE } from '@/configurations/constants';
+import { LocaleContext } from '@/contexts/locale';
 
 type ContentProps = {
   name: string;
@@ -10,6 +11,10 @@ type ContentProps = {
 
 const Content = ({ name }: ContentProps) => {
   const { locale } = useContext(LocaleContext);
+
+  if (locale === UNKNOWN_LOCALE) {
+    return null;
+  }
 
   const TranslatedContent: React.ElementType = dynamic(
     () =>

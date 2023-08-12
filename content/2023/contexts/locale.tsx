@@ -1,13 +1,15 @@
 'use client';
 
 import Cookies from 'js-cookie';
-import { createContext, useState } from 'react';
-
-const COOKIE_LOCALE_KEY = '__sciwork_locale';
-const DEFAULT_LOCALE = 'en';
+import { createContext, useLayoutEffect, useState } from 'react';
+import {
+  COOKIE_LOCALE_KEY,
+  DEFAULT_LOCALE,
+  UNKNOWN_LOCALE,
+} from '@/configurations/constants';
 
 export const LocaleContext = createContext({
-  locale: DEFAULT_LOCALE,
+  locale: UNKNOWN_LOCALE,
   updateLocale: (locale: string) => {},
 });
 
@@ -16,12 +18,20 @@ type LocaleProviderProps = {
 };
 
 const LocaleProvider = ({ children }: LocaleProviderProps) => {
-  const userLocale =
-    Cookies.get(COOKIE_LOCALE_KEY) ??
-    window.navigator.language ??
-    DEFAULT_LOCALE;
+  const [locale, setLocale] = useState(UNKNOWN_LOCALE);
 
-  const [locale, setLocale] = useState(userLocale.split('-')[0]);
+  useLayoutEffect(() => {
+    const userLocale =
+      Cookies.get(COOKIE_LOCALE_KEY) ??
+      window.navigator.language ??
+      DEFAULT_LOCALE;
+
+    const parsedLocale = userLocale.split('-')[0];
+
+    if (parsedLocale !== locale) {
+      setLocale(parsedLocale);
+    }
+  }, [locale]);
 
   const updateLocale = (locale: string) => {
     Cookies.set(COOKIE_LOCALE_KEY, locale);

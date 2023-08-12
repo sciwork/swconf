@@ -5,7 +5,7 @@ import { faDiscord, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import Container from '@/components/Container';
 import SocialLink from '@/components/SocialLink';
-import { LocaleContext } from '@/contexts/locales';
+import { LocaleContext } from '@/contexts/locale';
 
 const Footer = () => {
   const { updateLocale } = useContext(LocaleContext);

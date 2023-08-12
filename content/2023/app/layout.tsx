@@ -5,7 +5,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import BannerWrapper from '@/components/BannerWrapper';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
-import LocaleProvider from '@/contexts/locales';
+import LocaleProvider from '@/contexts/locale';
 import './globals.css';
 
 config.autoAddCss = false;
