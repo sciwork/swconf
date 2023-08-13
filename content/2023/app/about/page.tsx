@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Article from '@/components/Article';
-import Content from '@/contents/about.mdx';
+import Content from '@/components/Content';
 
 export const metadata: Metadata = {
   title: 'About',
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 const Page = () => {
   return (
     <Article>
-      <Content />
+      <Content name="about" />
     </Article>
   );
 };
