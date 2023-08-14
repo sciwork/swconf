@@ -10,6 +10,7 @@
     "^@/configurations/(.*)$",
     "^@/components/(.*)$",
     "^@/contents/(.*)$",
+    "^@/contexts/(.*)$",
     "^@/assets/(.*)$",
     "^[./]"
   ],
