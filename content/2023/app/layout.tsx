@@ -28,12 +28,12 @@ export async function generateMetadata() {
     metadataBase: process.env.SITEURL && new URL(process.env.SITEURL),
     openGraph: {
       title: 'sciwork 2023',
-      description: 'Science, code, and open source.',
+      description: 'science, code, and open source.',
       url: process.env.SITEURL,
       siteName: 'sciwork 2023',
       images: [
         {
-          url: '/sciworkbkg.png',
+          url: '/sw23_meta_img.jpg',
           width: 1024,
           height: 512,
         },
@@ -44,8 +44,8 @@ export async function generateMetadata() {
     twitter: {
       card: 'summary_large_image',
       title: 'sciwork 2023',
-      description: 'Science, code, and open source.',
-      images: ['/sciworkbkg.png'],
+      description: 'science, code, and open source.',
+      images: ['/sw23_meta_img.jpg'],
     },
     icons: {
       icon: [
