@@ -5,6 +5,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import BannerWrapper from '@/components/BannerWrapper';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
+import LocaleProvider from '@/contexts/locale';
 import './globals.css';
 
 config.autoAddCss = false;
@@ -24,14 +25,15 @@ export async function generateMetadata() {
       template: 'sciwork 2023 - %s',
     },
     description: 'Science, code, and open source.',
+    metadataBase: process.env.SITEURL && new URL(process.env.SITEURL),
     openGraph: {
       title: 'sciwork 2023',
-      description: 'Science, code, and open source.',
+      description: 'science, code, and open source.',
       url: process.env.SITEURL,
       siteName: 'sciwork 2023',
       images: [
         {
-          url: '/sciworkbkg.png',
+          url: '/sw23_meta_img.jpg',
           width: 1024,
           height: 512,
         },
@@ -42,8 +44,8 @@ export async function generateMetadata() {
     twitter: {
       card: 'summary_large_image',
       title: 'sciwork 2023',
-      description: 'Science, code, and open source.',
-      images: ['/sciworkbkg.png'],
+      description: 'science, code, and open source.',
+      images: ['/sw23_meta_img.jpg'],
     },
     icons: {
       icon: [
@@ -80,16 +82,18 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={clsx(
-          'tw-relative tw-flex tw-min-h-screen tw-w-screen tw-flex-col tw-overscroll-none',
+          'tw-relative tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-overscroll-none',
           inter.className,
           yanone.variable,
         )}
       >
-        <Header className="tw-fixed tw-top-0 tw-z-10" />
-        <BannerWrapper />
-        <main className="tw-grow">{children}</main>
-        <Footer />
-        <div id="portal" />
+        <LocaleProvider>
+          <Header className="tw-fixed tw-top-0 tw-z-10" />
+          <BannerWrapper />
+          <main className="tw-grow">{children}</main>
+          <Footer />
+          <div id="portal" />
+        </LocaleProvider>
       </body>
     </html>
   );
