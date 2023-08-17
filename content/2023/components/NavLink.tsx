@@ -10,11 +10,7 @@ const Link = ({ children, to }: { children: React.ReactNode; to: string }) => {
   return (
     <NextLink
       className={clsx(
-        'tw-text-base tw-font-medium tw-leading-loose hover:tw-text-red-600',
-        {
-          'tw-text-red-600': isActive,
-          'tw-text-white': !isActive,
-        },
+        'tw-font-yk tw-text-xl tw-leading-loose hover:tw-text-sky-600',
       )}
       href={to}
     >

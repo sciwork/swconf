@@ -10,8 +10,13 @@ const showBannerPageConfigs: ShowBannerPageConfigType[] = [
   {
     path: '/',
     props: {
-      title: 'sciwork 2023',
-      showIcon: true,
+      title: 'sciwork Conference',
+      subTitle: 'early December 2023',
+      children: (
+        <Button to="/cfp" variant="danger">
+          Call for Proposals
+        </Button>
+      ),
     },
   },
   {

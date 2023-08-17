@@ -52,7 +52,7 @@ const Header = ({ className }: Props) => {
     <header id="header" className={clsx('tw-w-full tw-z-20', className)}>
       <nav
         className={clsx('tw-flex tw-h-20 tw-items-center tw-px-6', {
-          'tw-bg-black': !showBanner || showDarkBackground,
+          'tw-bg-gray-200': !showBanner || showDarkBackground,
           'tw-bg-transparent': showBanner && !showDarkBackground,
         })}
         role="navigation"

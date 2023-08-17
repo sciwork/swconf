@@ -82,7 +82,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={clsx(
-          'tw-relative tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-overscroll-none',
+          'tw-relative tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-overscroll-none tw-bg-gray-200',
           inter.className,
           yanone.variable,
         )}
