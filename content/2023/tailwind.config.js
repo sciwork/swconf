@@ -20,12 +20,6 @@ module.exports = {
       screens: {
         tablet: "640px",
         desktop: "1024px",
-      },
-      maxHeight: {
-        "200": "50rem",
-      },
-      lineHeight: {
-        "0": "0",
       }
     },
   },
