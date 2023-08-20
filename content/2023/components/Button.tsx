@@ -3,7 +3,7 @@ import NextLink, { LinkProps as InternalLinkProps } from 'next/link';
 import { HTMLProps, MouseEvent } from 'react';
 
 type Props = {
-  variant?: 'default' | 'danger';
+  variant?: 'default' | 'action';
   children: React.ReactNode;
   to?: string;
   onClick?: () => void;
@@ -40,7 +40,7 @@ const Button = ({
           'tw-rounded-md tw-text-neutral-950 hover:tw-ring-1 hover:tw-ring-neutral-400':
             variant === 'default',
           'tw-bg-yellow-300 hover:tw-bg-yellow-400 tw-text-black tw-rounded-full':
-            variant === 'danger',
+            variant === 'action',
         },
       )}
       {...props}

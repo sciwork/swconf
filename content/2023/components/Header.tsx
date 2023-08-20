@@ -75,7 +75,7 @@ const Header = ({ className }: Props) => {
             ))}
         </div>
         <Button
-          variant="danger"
+          variant="action"
           to="/register"
           target="_blank"
           className="tw-hidden"
