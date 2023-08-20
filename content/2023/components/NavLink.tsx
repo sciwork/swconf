@@ -1,12 +1,7 @@
-'use client';
-
 import clsx from 'clsx';
 import NextLink from 'next/link';
-import { usePathname } from 'next/navigation';
 
 const Link = ({ children, to }: { children: React.ReactNode; to: string }) => {
-  const pathname = usePathname();
-  const isActive = pathname === to;
   return (
     <NextLink
       className={clsx(
