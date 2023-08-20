@@ -34,7 +34,7 @@ const Drawer = ({ show, onClick, children }: Props) => {
         onClick={onClick}
       />
       <Transition.Child
-        className="tw-fixed tw-left-0 tw-top-0 tw-z-50 tw-h-screen tw-min-w-[300px] tw-bg-white"
+        className="tw-fixed tw-left-0 tw-top-0 tw-z-50 tw-h-screen tw-min-w-[300px] tw-bg-gray-200"
         enter="tw-transition tw-ease-in-out tw-duration-300 tw-transform"
         enterFrom="-tw-translate-x-full"
         enterTo="tw-translate-x-0"

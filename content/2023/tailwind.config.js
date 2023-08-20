@@ -4,6 +4,7 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./contents/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -19,7 +20,7 @@ module.exports = {
       screens: {
         tablet: "640px",
         desktop: "1024px",
-      },
+      }
     },
   },
   plugins: [require("@tailwindcss/typography")],

@@ -14,9 +14,12 @@ const MobileNavigator = () => {
   const toggleMenu = () => setIsMenuOpen((prev) => !prev);
   return (
     <>
-      <Button onClick={toggleMenu}>
-        <FontAwesomeIcon className="tw-text-white" icon={faBars} />
-      </Button>
+      <div className="tw-flex tw-justify-between tw-items-center">
+        <Logo variant="light" />
+        <Button onClick={toggleMenu} className="tw-pb-4">
+          <FontAwesomeIcon className="tw-text-black" icon={faBars} />
+        </Button>
+      </div>
       <Drawer show={isMenuOpen} onClick={toggleMenu}>
         <div
           className="tw-border-b tw-px-4 tw-pb-2 tw-pt-3"

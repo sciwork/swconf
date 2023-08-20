@@ -22,7 +22,7 @@ const isHeaderOverBanner = () => {
 
   if (!headerEl || !bannerEl) return false;
 
-  return window.scrollY >= (bannerEl.offsetHeight - headerEl.offsetHeight) / 2;
+  return window.scrollY >= bannerEl.offsetHeight - headerEl.offsetHeight;
 };
 
 const Header = ({ className }: Props) => {
@@ -52,7 +52,7 @@ const Header = ({ className }: Props) => {
     <header id="header" className={clsx('tw-w-full tw-z-20', className)}>
       <nav
         className={clsx('tw-flex tw-h-20 tw-items-center tw-px-6', {
-          'tw-bg-black': !showBanner || showDarkBackground,
+          'tw-bg-gray-200': !showBanner || showDarkBackground,
           'tw-bg-transparent': showBanner && !showDarkBackground,
         })}
         role="navigation"
@@ -62,7 +62,7 @@ const Header = ({ className }: Props) => {
             <MobileNavigator />
           </div>
           <div className="tw-hidden tw-pt-2 desktop:tw-block">
-            <Logo />
+            <Logo variant="light" />
           </div>
         </div>
         <div className="tw-hidden tw-items-center tw-gap-x-8 tw-px-6 desktop:tw-flex">
@@ -75,7 +75,7 @@ const Header = ({ className }: Props) => {
             ))}
         </div>
         <Button
-          variant="danger"
+          variant="action"
           to="/register"
           target="_blank"
           className="tw-hidden"
