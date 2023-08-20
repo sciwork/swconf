@@ -10,7 +10,7 @@ import { LocaleContext } from '@/contexts/locale';
 const Footer = () => {
   const { updateLocale } = useContext(LocaleContext);
   return (
-    <footer className="tw-w-full tw-mt-24">
+    <footer className="tw-w-full">
       <Container className="tw-bg-slate-800 tw-py-10 tw-text-white">
         <div className="tw-grid tw-grid-cols-1 tw-grid-rows-2 tablet:tw-grid-cols-2 tablet:tw-grid-rows-1 tw-gap-4">
           <div>

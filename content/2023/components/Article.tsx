@@ -8,7 +8,7 @@ const Article = ({ children }: Props) => {
   return (
     <Container
       as="article"
-      className="tw-prose tw-max-w-none tw-py-10 prose-headings:tw-font-yk"
+      className="tw-prose tw-max-w-none tw-my-2 tablet:tw-mt-10 tablet:tw-mb-32 prose-headings:tw-font-yk"
     >
       {children}
     </Container>
