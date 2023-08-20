@@ -22,7 +22,7 @@ const isHeaderOverBanner = () => {
 
   if (!headerEl || !bannerEl) return false;
 
-  return window.scrollY >= (bannerEl.offsetHeight - headerEl.offsetHeight) / 2;
+  return window.scrollY >= bannerEl.offsetHeight - headerEl.offsetHeight;
 };
 
 const Header = ({ className }: Props) => {
