@@ -12,7 +12,7 @@ const Logo = ({ variant = 'dark' }: Props) => (
     <Image className="tw-h-8 tw-w-8" src={iconImg} alt="sciwork icon" />
     <div
       className={clsx('tw-font-yk tw-text-3xl', {
-        'tw-text-black': variant === 'dark',
+        'tw-text-white': variant === 'dark',
         'tw-text-neutral-950': variant === 'light',
       })}
     >

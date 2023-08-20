@@ -62,7 +62,7 @@ const Header = ({ className }: Props) => {
             <MobileNavigator />
           </div>
           <div className="tw-hidden tw-pt-2 desktop:tw-block">
-            <Logo />
+            <Logo variant="light" />
           </div>
         </div>
         <div className="tw-hidden tw-items-center tw-gap-x-8 tw-px-6 desktop:tw-flex">
