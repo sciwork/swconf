@@ -23,7 +23,7 @@ const routes = [
   },
   {
     path: '/about',
-    name: 'About',
+    name: 'Team',
   },
 ];
 

@@ -10,8 +10,13 @@ const showBannerPageConfigs: ShowBannerPageConfigType[] = [
   {
     path: '/',
     props: {
-      title: 'sciwork 2023',
-      showIcon: true,
+      title: 'sciwork Conference',
+      subTitle: 'early December 2023',
+      children: (
+        <Button to="/cfp" variant="action">
+          Call for Proposals
+        </Button>
+      ),
     },
   },
   {
@@ -19,7 +24,7 @@ const showBannerPageConfigs: ShowBannerPageConfigType[] = [
     props: {
       title: 'Call for Proposals',
       children: (
-        <Button to="https://pretalx.sciwork.dev/sw23/submit/" variant="danger">
+        <Button to="https://pretalx.sciwork.dev/sw23/submit/" variant="action">
           Submit a Proposal
         </Button>
       ),
