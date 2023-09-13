@@ -11,7 +11,7 @@ const showBannerPageConfigs: ShowBannerPageConfigType[] = [
     path: '/',
     props: {
       title: 'sciwork Conference',
-      subTitle: 'early December 2023',
+      subTitle: 'December 9th to 10th\nNational Yang Ming Chiao Tung University',
       children: (
         <Button to="/cfp" variant="action">
           Call for Proposals
