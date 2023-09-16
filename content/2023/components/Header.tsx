@@ -22,7 +22,7 @@ const isHeaderOverBanner = () => {
 
   if (!headerEl || !bannerEl) return false;
 
-  return window.scrollY >= bannerEl.offsetHeight - headerEl.offsetHeight;
+  return window.scrollY >= bannerEl.offsetHeight;
 };
 
 const Header = ({ className }: Props) => {
@@ -49,7 +49,7 @@ const Header = ({ className }: Props) => {
   }, [showBanner]);
 
   return (
-    <header id="header" className={clsx('tw-w-full tw-z-20', className)}>
+    <header id="header" className={clsx('tw-z-20 tw-w-full', className)}>
       <nav
         className={clsx('tw-flex tw-h-20 tw-items-center tw-px-6', {
           'tw-bg-gray-200': !showBanner || showDarkBackground,
