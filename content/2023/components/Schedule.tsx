@@ -42,7 +42,7 @@ const Schedule = ({ days, currentDay }: Props) => {
               })}
             >
               {timeSlot.talks.map((talk) => (
-                <TalkInfoCard className="tw-h-full" key={talk.id} talk={talk} />
+                <TalkInfoCard key={talk.id} talk={talk} />
               ))}
             </div>
           </>
