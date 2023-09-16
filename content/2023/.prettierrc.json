@@ -11,6 +11,8 @@
     "^@/components/(.*)$",
     "^@/contents/(.*)$",
     "^@/contexts/(.*)$",
+    "^@/models/(.*)$",
+    "^@/utils/(.*)$",
     "^@/assets/(.*)$",
     "^[./]"
   ],
