@@ -15,9 +15,7 @@ export const metadata: Metadata = {
 };
 
 export function generateStaticParams() {
-  return days.map((day) => ({
-    params: { day: day.date },
-  }));
+  return days.map((day) => ({ day: day.date.format('YYYY-MM-DD') }));
 }
 
 const Page = ({ params }: { params: { day: string } }) => {
