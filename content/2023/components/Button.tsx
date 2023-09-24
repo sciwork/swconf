@@ -35,11 +35,11 @@ const Button = ({
   return (
     <Component
       className={clsx(
-        'tw-px-4 tw-py-2 tablet:tw-text-lg tw-outline-none focus:tw-ring-2',
+        'tw-px-4 tw-pb-2 tw-pt-3 tw-font-yk tw-text-lg tw-font-normal tw-no-underline tw-outline-none focus:tw-ring-2 tablet:tw-text-lg',
         {
           'tw-rounded-md tw-text-neutral-950 hover:tw-ring-1 hover:tw-ring-neutral-400':
             variant === 'default',
-          'tw-bg-yellow-300 hover:tw-bg-yellow-400 tw-text-black tw-rounded-full':
+          'tw-rounded-full tw-bg-yellow-300 tw-text-black hover:tw-bg-yellow-400':
             variant === 'action',
         },
       )}

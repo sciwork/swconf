@@ -10,7 +10,6 @@ const routes = [
   {
     path: '/program',
     name: 'Program',
-    disabled: true,
   },
   {
     path: '/sponsors',
