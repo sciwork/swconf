@@ -10,6 +10,7 @@ const routes = [
   {
     path: '/program',
     name: 'Program',
+    disabled: true,
   },
   {
     path: '/sponsors',
@@ -23,6 +24,16 @@ const routes = [
   {
     path: '/about',
     name: 'Team',
+  },
+  {
+    path: '/register',
+    name: 'Register',
+    disabled: true,
+  },
+  {
+    path: '/code-of-conduct',
+    name: 'Code of Conduct',
+    disabled: true,
   },
 ];
 
