@@ -35,6 +35,11 @@ const routes = [
     name: 'Code of Conduct',
     disabled: true,
   },
+  {
+    path: '/health-safety-guidelines',
+    name: 'Health & Safety Guidelines',
+    disabled: true,
+  },
 ];
 
 export default routes;
