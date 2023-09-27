@@ -1,0 +1,1553 @@
+{
+  "schedule": {
+    "version": "0.38",
+    "base_url": "https://pretalx.coscup.org/coscup-2023/schedule/",
+    "conference": {
+      "acronym": "coscup-2023",
+      "title": "COSCUP 2023",
+      "start": "2023-07-29",
+      "end": "2023-07-30",
+      "daysCount": 2,
+      "timeslot_duration": "00:05",
+      "rooms": [
+        {
+          "name": "RB 105",
+          "guid": null,
+          "description": "Day1: Main Track /  Day2: OpenStreetMap x Wikidata",
+          "capacity": null
+        },
+        {
+          "name": "AU",
+          "guid": null,
+          "description": "Day1: JVM / Day2: Main Track",
+          "capacity": null
+        },
+        {
+          "name": "TR 209",
+          "guid": null,
+          "description": "Day1: PyCon TW Community / Day2: Supercharge the development power of the Laravel and Vue communities with a brain upgrade, doubling and redoubling their energy.",
+          "capacity": null
+        },
+        {
+          "name": "TR 210",
+          "guid": null,
+          "description": "Day1: Open Source People Network (OSPN) Japan Special track / Day2: Rust",
+          "capacity": null
+        },
+        {
+          "name": "TR 211",
+          "guid": null,
+          "description": "two-day track: KCD",
+          "capacity": null
+        },
+        {
+          "name": "TR 212",
+          "guid": null,
+          "description": "two-day track: Blockchain and Distributed Ledger",
+          "capacity": null
+        },
+        {
+          "name": "TR 213",
+          "guid": null,
+          "description": "Day1 Read Source Code / Day2: Golang Taiwan @COSCUP 2023",
+          "capacity": 0
+        },
+        {
+          "name": "TR 214",
+          "guid": null,
+          "description": "two-day track: Student Adventure Time",
+          "capacity": null
+        },
+        {
+          "name": "TR 310-1",
+          "guid": null,
+          "description": "Day1: HK / Day2: 上午：Open Source Chatbot 下午：Open Licensing",
+          "capacity": null
+        },
+        {
+          "name": "TR 311",
+          "guid": null,
+          "description": "Diversity and Inclusivity in Tech - Healing",
+          "capacity": 60
+        },
+        {
+          "name": "TR 312",
+          "guid": null,
+          "description": "Google Developers",
+          "capacity": null
+        },
+        {
+          "name": "TR 313",
+          "guid": null,
+          "description": "Day1: Open Education /Day2: Open Source Newbies",
+          "capacity": null
+        },
+        {
+          "name": "TR 409-1",
+          "guid": null,
+          "description": "Hacking Room",
+          "capacity": 30
+        },
+        {
+          "name": "TR 410",
+          "guid": null,
+          "description": "Day1: MySQL Sharing / Day2: PostgreSQL.TW",
+          "capacity": null
+        },
+        {
+          "name": "TR 411",
+          "guid": null,
+          "description": "BoF / CNTUG workshop",
+          "capacity": null
+        },
+        {
+          "name": "TR 412-1",
+          "guid": null,
+          "description": "Day1:　System Software / Day2:　Open Source Inpired Hardware",
+          "capacity": 0
+        },
+        {
+          "name": "TR 412-2",
+          "guid": null,
+          "description": "Open Source Firmware Track",
+          "capacity": null
+        },
+        {
+          "name": "TR 413-1",
+          "guid": null,
+          "description": "Day1：　上午：Julia Language 下午：O-RAN in B5G/6G　Day2:  Ruby",
+          "capacity": null
+        },
+        {
+          "name": "TR 509",
+          "guid": null,
+          "description": "Day1 Open knowledge and diverse values. / Day2: What else can be open besides data in agriculture?",
+          "capacity": null
+        },
+        {
+          "name": "TR 510",
+          "guid": null,
+          "description": "MISC. 1",
+          "capacity": null
+        },
+        {
+          "name": "TR 511",
+          "guid": null,
+          "description": "MISC. 2",
+          "capacity": null
+        },
+        {
+          "name": "TR 512",
+          "guid": null,
+          "description": "Day1: Interdisciplinary Practice of Art, Culture, Local Context, and Open Data. / Day2: Open World Tour",
+          "capacity": null
+        },
+        {
+          "name": "TR 513",
+          "guid": null,
+          "description": "Day1:The Design We Open Workshop / Day2: Open Design",
+          "capacity": null
+        },
+        {
+          "name": "TR 609",
+          "guid": null,
+          "description": "OCF Broad Game",
+          "capacity": null
+        },
+        {
+          "name": "TR 613",
+          "guid": null,
+          "description": "紅酒瑜伽",
+          "capacity": 60
+        },
+        {
+          "name": "TR 614",
+          "guid": null,
+          "description": "MISC. 3",
+          "capacity": null
+        },
+        {
+          "name": "TR 615",
+          "guid": null,
+          "description": "Day1: Open Edge AI & TinyML / Day2: Open AI",
+          "capacity": null
+        },
+        {
+          "name": "TR 616",
+          "guid": null,
+          "description": "Day1:　Open standards and open source solutions for healthcare information./ Day2:　Open Source and Career Growth",
+          "capacity": null
+        }
+      ],
+      "days": [
+        {
+          "index": 1,
+          "date": "2023-07-29",
+          "day_start": "2023-07-29T04:00:00+08:00",
+          "day_end": "2023-07-30T03:59:00+08:00",
+          "rooms": {
+            "RB 105": [
+              {
+                "id": 517,
+                "guid": "26ac76e4-a24e-58fa-9237-510405ffca82",
+                "logo": "",
+                "date": "2023-07-29T08:50:00+08:00",
+                "start": "08:50",
+                "duration": "00:10",
+                "room": "RB 105",
+                "slug": "coscup-2023-517-coscup-2023-welcome-day-1",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/UDVLDE/",
+                "title": "COSCUP 2023: Welcome Day 1",
+                "subtitle": "",
+                "track": "Main Track",
+                "type": "open (10mins)",
+                "language": "en",
+                "abstract": "Welcome to COSCUP 2023",
+                "description": "",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 471,
+                    "code": "9NRTBF",
+                    "public_name": "COSCUP Team",
+                    "biography": "We are some random volunteers to make all these happen with YOU♥️ Join us: volunteer@coscup.org / https://volunteer.coscup.org/",
+                    "answers": []
+                  },
+                  {
+                    "id": 4,
+                    "code": "ZVDG89",
+                    "public_name": "Tzu Yin Hong",
+                    "biography": null,
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 471,
+                "guid": "06c04a4f-6944-5096-8329-b2173c391d6f",
+                "logo": "",
+                "date": "2023-07-29T09:00:00+08:00",
+                "start": "09:00",
+                "duration": "00:45",
+                "room": "RB 105",
+                "slug": "coscup-2023-471--prime-session-the-yin-and-yang-of-open-source-unveiling-the-dynamics-of-collaboration-diversity-and-cultural-transformation",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/L8XSYB/",
+                "title": "[Prime session] The Yin and Yang of Open Source: Unveiling the Dynamics of Collaboration, Diversity, and Cultural Transformation",
+                "subtitle": "",
+                "track": "Main Track",
+                "type": "prime session",
+                "language": "en",
+                "abstract": "《開源的陰陽》是對協作、多元化和開源文化之間錯綜複雜關係的引人入勝的探索。從其豐富的歷史、優點、挑戰和當前問題入手，特別關注其在文化轉型方面的影響，旨在激發對自由和開源哲學及其實際應用巨大力量的更深刻贊賞。它強調負責任的實踐和創建包容性社區的重要性，敦促我們擁抱這股變革力量，積極貢獻於一個更加包容和協作的未來。（中文翻譯）\r\n\r\n備註：此場講座為 OSI (https://opensource.org) 與 COSCUP 共同慶祝開源週年全球系列活動而設立。",
+                "description": "",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 453,
+                    "code": "P7R3FE",
+                    "public_name": "Paloma Oliveira",
+                    "biography": "Paloma Oliveira is an Open Source Developer Evangelist at Sauce Labs who have been promoting free and open source culture since 2009. Paloma is a strong activist for diversity and equity in tech and open source co-organizing PyLadies Berlin <https://berlin.pyladies.com/> and mentoring at FrauenLoop <https://www.frauenloop.org/>. She exercise a continuous critical thinking about the technology we create and use, being co-founder of the Zentrum für Netzkunst <https://netzkunst.berlin/> (Berlin’s netart institute).\r\n\r\nOpen Source Initiative, OSI, is a leading voice on the policies and principles of open source. The OSI helps build a world where the freedoms and opportunities of open source software can be enjoyed by all by supporting institutions and individuals working together to create communities of practice in which the healthy open source ecosystem thrives.",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 152,
+                "guid": "3c47c166-af79-5baf-b0af-1eccd31904e8",
+                "logo": "",
+                "date": "2023-07-29T10:00:00+08:00",
+                "start": "10:00",
+                "duration": "00:30",
+                "room": "RB 105",
+                "slug": "coscup-2023-152--activitypub",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/MBPYNH/",
+                "title": "島嶼遲早連結成一片宇宙：ActivityPub協議入門及基礎實作攻略",
+                "subtitle": "",
+                "track": "Main Track",
+                "type": "general (30mins)",
+                "language": "zh-tw",
+                "abstract": "封閉而中心化的社交媒體是當代社會的嚴重問題，我們的個人資料、我們的關係網絡都被壟斷在一些不可信任的大型商業公司手中。但這一趨勢有打破的可能，在馬斯克掌控Twitter後許多人選擇的新社交站點——長毛象Mastodon——就是一個優秀的去中心化開源方案。而長毛象如何實現去中心，背靠的是ActivityPub協議。甚至，依賴該協議，長毛象Mastodon還可以和其它實作了該協議的個人部落格、音樂分享工具、論壇、影片分享網站產生社交連結，具有形成一個聯邦宇宙Fediverse的潛力。\r\n\r\n這次演講內容就將帶你走進ActivityPub的世界。內容涵蓋兩個主要部分：（1）ActivityPub協議的基本概念、核心元素。（2）用Python或任何你熟悉的程式語言實作基礎方法，讓你可以擁有基本的社交帳號，可以進行發文、關注，讓你連結到聯邦宇宙！",
+                "description": "近十年，社交媒體依靠着互聯網的開放、連結優勢迅速擴張，成為現代生活中不可或缺的一部分。雖然大部分社交平台提供了便捷的互動方式，但它們幾乎全部都是封閉且中心化的。你無法完整下載自己的個人資料，你無法將自己的社交網絡從站點打包帶走，甚至，你連自己書寫的內容都有可能被平台無理由刪除。社交媒體平台成了壟斷者，開放互聯網理想的敵人，當然也是開源理念的敵人。於是，一些開放標準與協議應運而生，讓人們可以自由使用不同開源平台，並且讓這些開源平台間可以順利互動。其中，由 W3C 在 2018 年起草的 ActivityPub 協議是目前最成熟的一支。實作了此協議的長毛象 Mastodon 社交網絡截止 2023 年 5 月 2 日已經有 9500 個站點，120 萬活躍用戶。\r\n\r\n本次演講首先將簡要介紹 ActivityPub 協議的定義、歷史及發展。 ActivityPub 是一個分散式社交網路協議，目的是實現不同平台/站點/實例之間的互動與連結。接著，我將探討 ActivityPub 協議的核心概念，包括 Actors（角色）、Objects（對象）和 Activities（活動）。Actors 是協議中代表使用者或服務的實體；Objects 是用戶間互動的主要內容，如文章、圖片等；而 Activities 則描述了 Actors 對 Objects 所採取的動作，例如發布、回覆等；此外，我還會介紹 Inbox 和 Outbox 的概念，它們分別表示用戶接收和發送訊息的容器（但通常開源應用不一定完整實作 Outbox)。\r\n\r\n在基礎實作範例部分，我將介紹如何實作一個簡單實例，展示如何用 Python 建立基本的 Actor、創建及發送 Activity 和 Object 。當然，也會實作 Inbox 的處理流程。這樣可以完整實現社交媒體賬戶的基本功能，包括追蹤、按贊、留言、接收新動態等。這樣可以讓參與者不僅知道 ActivityPub 協議的原理，也可以在自己的開源應用中加入 ActivityPub ，讓更多開源應用可以向社交媒體一樣互動起來，真正朝向實踐聯邦宇宙的目標前進！\r\n\r\nActivityPub 協議簡介 (5分鐘)\r\n1. ActivityPub 協議的定義\r\n2. ActivityPub 的歷史及發展\r\n3. 如何應用於社交網路及開源應用\r\n\r\nActivityPub 協議核心概念 (10分鐘)\r\n1. Actors（角色）\r\n2. Objects（對象）\r\n3. Activities（活動）\r\n4. Inbox 與 Outbox（收件箱與寄件箱）\r\n\r\n基礎實作範例 (15分鐘)\r\n1. 建立基本的 Actor\r\n2. 創建及發送 Activity 與 Object\r\n3. 實作 Inbox 與 Outbox 的處理流程\r\n4. 示範如何建立互動，如：追蹤、取消追蹤、發布動態等",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 172,
+                    "code": "U37RQV",
+                    "public_name": "phx",
+                    "biography": "日常研究方向是自然語言處理。不務正業方向是長毛象。近期在努力學習Elixir、Web滲透、逆向工程。",
+                    "answers": []
+                  },
+                  {
+                    "id": 192,
+                    "code": "B7DECG",
+                    "public_name": "SouthFox",
+                    "biography": "自由軟件愛好者，在 21 年底拋棄專有社交媒體自建站點「入住」聯邦宇宙。",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 229,
+                "guid": "4b319bb2-05e7-5fc4-94cd-5c9a9f03fa2b",
+                "logo": "",
+                "date": "2023-07-29T10:40:00+08:00",
+                "start": "10:40",
+                "duration": "00:30",
+                "room": "RB 105",
+                "slug": "coscup-2023-229-",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/PUMCVN/",
+                "title": "從數位視角出發的民間版數位政策白皮書",
+                "subtitle": "",
+                "track": "Main Track",
+                "type": "general (30mins)",
+                "language": "zh-tw",
+                "abstract": "我嘗試探索「數位視角」是什麼，並從數位技術帶來社會改變的角度出發，去盤點遇到的問題，進而思考可能的數位政策解方，寫出了這份2023台灣民間版數位政策白皮書的草案。期待這份白皮書草案可以發揮拋磚引玉的效果，對台灣未來的數位政策帶來改變。",
+                "description": "在過去一段時間，台灣的數位法制立法相當緩慢，但數位技術卻推陳出新。許多舊的問題仍未處理完畢，新的技術又不斷冒出來。\r\n\r\n而總統大選即將到來，可以想像各個陣營將會推出相應的數位法制。但是，若是沒有從數位視角出發，恐怕難以應對未來數位技術所帶來的挑戰。但目前，各界提出的數位政策，往往是從既有的專業領域出發去應對數位帶來的改變，而非從數位的視角，重新審視各個領域的願景與挑戰。\r\n\r\n因此，我嘗試探索「數位視角」是什麼，並從數位技術帶來社會改變的角度出發，去盤點遇到的問題，進而思考可能的數位政策解方，寫出了這份2023台灣民間版數位政策白皮書的草案。期待這份白皮書草案可以發揮拋磚引玉的效果，對台灣未來的數位政策帶來改變。",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 230,
+                    "code": "NTXF37",
+                    "public_name": "林雨蒼",
+                    "biography": "自由軟體工作者、公民記者，曾任職於PDIS參與開放政府政策，並參與過政策相關討論。",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 372,
+                "guid": "69238d94-982e-5ae9-b8f1-0528866292ba",
+                "logo": "",
+                "date": "2023-07-29T11:20:00+08:00",
+                "start": "11:20",
+                "duration": "00:30",
+                "room": "RB 105",
+                "slug": "coscup-2023-372-kubernetes",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/URPPHL/",
+                "title": "Kubernetes需要觀測的十大指標",
+                "subtitle": "",
+                "track": "Main Track",
+                "type": "general (30mins)",
+                "language": "zh-tw",
+                "abstract": "在Kubernetes裏，你可以監控和觀測很多數據! 但是, 最大的問題是哪一個是我們應該特別關注? 在這個演講，我們將分享對Kubernetes中十大指標的看法和觀察，以及如何立即開始.",
+                "description": "",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 351,
+                    "code": "J7J3LC",
+                    "public_name": "Steve Ng",
+                    "biography": "Steve Ng is the head of Developer Relations for New Relic Asia Pacific and has worked in various roles in the industry for over a decade. At New Relic, Steve focuses on open source, observability, site reliability engineering, DevOps practices, cloud-native architecture, AIOps, and developer experience.",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 225,
+                "guid": "4f6cd4f7-1cff-5259-99ff-5d456a209849",
+                "logo": "",
+                "date": "2023-07-29T13:30:00+08:00",
+                "start": "13:30",
+                "duration": "00:30",
+                "room": "RB 105",
+                "slug": "coscup-2023-225-",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/8FRDHP/",
+                "title": "集市的故事",
+                "subtitle": "",
+                "track": "Main Track",
+                "type": "general (30mins)",
+                "language": "zh-tw",
+                "abstract": "《大教堂与集市》一书对于“大教堂式“和”集市式“开发模式有了比较充分阐述和比较。此后，大家习惯将开源社区称呼为”集市“。\r\n\r\n在这次分享中，将以小城镇的集市演变为切入点，探讨开源社区的一些问题。\r\n\r\n\r\nThe book \"The Cathedral & the Bazaar\" fully expounds and compares the development mode of \"cathedral\" and \"bazaar\". Since then, the open source community has been habitually regarded as a \"bazaar\".\r\n\r\nIn this sharing, we will take the evolution of the bazaar in small towns as a starting point to explore some problems in the open source community.",
+                "description": "",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 435,
+                    "code": "USRWLH",
+                    "public_name": "丁文昊",
+                    "biography": "2019 年 7 月至 2020 年 12 月於一家日企工作。\r\n2021 年 8 月加入一家遠程工作團隊，工作至今。\r\n從 2016 年開始接觸開源社區，2018 年開始為開源社區貢獻。\r\n\r\n持續為 freeCodeCamp、 open-digger、kaiyuanshe、openEuler 等社區/項目貢獻。\r\n\r\n對於開源社區、DAO 等有一些參與和觀察。",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 375,
+                "guid": "4b8385f2-fff1-529e-8ba0-e43ec7d74ca2",
+                "logo": "",
+                "date": "2023-07-29T14:10:00+08:00",
+                "start": "14:10",
+                "duration": "00:30",
+                "room": "RB 105",
+                "slug": "coscup-2023-375----",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/X39N8N/",
+                "title": "是技術也是文化：開源社區交流的看，聽，思",
+                "subtitle": "",
+                "track": "Main Track",
+                "type": "general (30mins)",
+                "language": "zh-tw",
+                "abstract": "开源社区是最左脑的“技术”，也是最右脑的“社区”，开源成功离不开社区合作和跨文化合作，那么对于文化的理解，对于别人的表示的理解，就是我们很值得关注的领域了。本论坛会针对开源社区的跨文化交流，做一些道法术的探讨。",
+                "description": "",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 433,
+                    "code": "TMDLGQ",
+                    "public_name": "边思康",
+                    "biography": null,
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 220,
+                "guid": "debbcbc6-a141-56d4-b0ab-694af0696655",
+                "logo": "",
+                "date": "2023-07-29T14:50:00+08:00",
+                "start": "14:50",
+                "duration": "00:30",
+                "room": "RB 105",
+                "slug": "coscup-2023-220-banyandb-an-optimized-observability-databasebanyandb-an-optimized-observability-database",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/DBTWCP/",
+                "title": "BanyanDB: An Optimized Observability DatabaseBanyanDB: An Optimized Observability Database",
+                "subtitle": "",
+                "track": "Main Track",
+                "type": "general (30mins)",
+                "language": "zh-tw",
+                "abstract": "BanyanDB is an observability database optimized to handle metrics, tracing, and logging data generated by Apache SkyWalking. It improves performance and resource usage for SkyWalking's APM data model. Based on the RUM conjecture, BanyanDB extends SkyWalking's boundary and optimizes the data flow process. During this talk, the speaker will delve into the specifics of BanyanDB, based on their conjecture. He will elaborate on why this particular storage layer is superior in terms of reliability and effectiveness when compared to other options available.",
+                "description": "",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 440,
+                    "code": "EV8VVJ",
+                    "public_name": "高洪涛",
+                    "biography": "美國servicemesh服務商tetrate創始工程師。原華為軟件開發雲技術專家，對雲原生產品有豐富的設計，研發與實施經驗。對分佈式數據庫，容器調度，微服務，ServicMesh等技術有深入的了解。\r\n\r\n目前為Apache ShardingSphere和Apache SkyWalking核心貢獻者，參與該開源項目在軟件開發雲的商業化進程。前噹噹網系統架構師，開源達人，曾參與Elastic-Job等知名開源項目。對開源項目的管理，推廣和社區運營有豐富的經驗。\r\n\r\n積極參與技術分享，曾在多個技術大會中做過分享，包括DTCC，ArchSummit, Top100，Oracle嘉年華等。在多個媒體發表過文章，如InfoQ，OSChina等\r\n\r\n著作：《Apache SkyWalking實戰》",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 219,
+                "guid": "314b884d-8879-5d30-bb03-607b57a2d082",
+                "logo": "",
+                "date": "2023-07-29T15:30:00+08:00",
+                "start": "15:30",
+                "duration": "00:30",
+                "room": "RB 105",
+                "slug": "coscup-2023-219-----",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/TAFBB3/",
+                "title": "無主動，不開源 —— 暴論「開放協作」的迷思",
+                "subtitle": "",
+                "track": "Main Track",
+                "type": "general (30mins)",
+                "language": "zh-tw",
+                "abstract": "1. COSCUP 启发的跨界社群 —— 开源市集\r\n2. 开源运动背后的普世价值 —— 开放协作\r\n3. 内源模式驱动的远程开发 —— 开源实训\r\n4. 开放协作底层的精神内核 —— 主动参与",
+                "description": "",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 441,
+                    "code": "3QQCWC",
+                    "public_name": "石垚",
+                    "biography": "石垚是 idea2app 團隊（https://ideapp.dev/ ）創始人，Web/JavaScript 全棧開發者、WebCell 前端開源框架作者，現任 freeCodeCamp 成都社區負責人、開源社理事、微軟 MVP，致力於在開放生態中為社會創造價值。",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 470,
+                "guid": "d6ee0809-bdca-5ca1-952d-add3d84e3c4a",
+                "logo": "/media/coscup-2023/submissions/8GEEAR/lucap_S3HLFLb.jpg",
+                "date": "2023-07-29T16:10:00+08:00",
+                "start": "16:10",
+                "duration": "00:45",
+                "room": "RB 105",
+                "slug": "coscup-2023-470--prime-session-writing-a-technical-book-doesn-t-have-to-be-scary",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/8GEEAR/",
+                "title": "[Prime session] Writing a technical book doesn’t have to be scary",
+                "subtitle": "",
+                "track": "Main Track",
+                "type": "prime session",
+                "language": "en",
+                "abstract": "自 2020 年起，我開始撰寫 \"Zero to Production in Rust”，一本關於使用 Rust 程式語言開發後端應用的書。\r\n初次嘗試寫作，我對於這本書的未來走向毫無頭緒：有人會感興趣嗎？我該從何下筆撰寫內容？要試著和出版社合作還是自費出版？內容該開放給大眾嗎？\r\n這場演講正是三年前的我所希望擁有的指南。我將介紹技術書籍從頭到尾產製的過程，包括主題定義、行銷策略、發行方式（包含開放近用）以及價格設定。\r\n[摘要翻譯自英文]\r\n*本場次由 Rust Taiwan Community 與 COSCUP 大會聯合邀請",
+                "description": "",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 444,
+                    "code": "SNLQAY",
+                    "public_name": "Luca Palmieri",
+                    "biography": "Luca Palmieri builds technology products for a living. His current focus is on backend development, software architecture and the Rust programming language.\r\n\r\nHe currently works at MainMatter as a Principal Engineering Consultant. He partners with teams across the industry to make sure they succeed in adopting or scaling their Rust usage, where it makes sense to do so. He was formerly at AWS and TrueLayer.\r\n\r\nHe has been part of the Rust community since 2018 and is best known as the author of “Zero to Production in Rust”, an introduction to using Rust for backend development.\r\n\r\nWhen he is not coding, you’ll find him baking cakes or rolling pasta sheets.",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 508,
+                "guid": "f2a079c2-f78b-5bad-9750-07f62d54b3cb",
+                "logo": "",
+                "date": "2023-07-29T16:55:00+08:00",
+                "start": "16:55",
+                "duration": "00:15",
+                "room": "RB 105",
+                "slug": "coscup-2023-508-closing-day-1",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/PXWCTN/",
+                "title": "Closing Day 1",
+                "subtitle": "",
+                "track": "Main Track",
+                "type": "opening & closing",
+                "language": "en",
+                "abstract": "-",
+                "description": "",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 471,
+                    "code": "9NRTBF",
+                    "public_name": "COSCUP Team",
+                    "biography": "We are some random volunteers to make all these happen with YOU♥️ Join us: volunteer@coscup.org / https://volunteer.coscup.org/",
+                    "answers": []
+                  },
+                  {
+                    "id": 28,
+                    "code": "ZFW33N",
+                    "public_name": "劉雁 (Yanyiyi)",
+                    "biography": "2013 幫 Muka 救火掉進 COSCUP 行銷坑，就坑坑相連出沒在 SITCON, g0v Summit, CCTW 中，也當過拉贊及出納志工小精靈。資傳碩班時接觸了資訊社會學，進而思索怎樣讓地方或人文的人都能快速接觸開放精神，也試著在一些文恐行動中試著嘗試開放的概念。曾在某前瞻計畫中試著推動開放資料與 CC ，突然醒悟覺得來 OCF 可試著從不同角度「更用力」使力。",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              }
+            ],
+            "AU": [
+              {
+                "id": 198,
+                "guid": "e80f34c3-711f-5d45-b744-5b7c32011f4e",
+                "logo": "/media/coscup-2023/submissions/V8F9VH/logo_HD42xeJ.png",
+                "date": "2023-07-29T09:30:00+08:00",
+                "start": "09:30",
+                "duration": "00:30",
+                "room": "AU",
+                "slug": "coscup-2023-198-an-introduction-to-jetbrains-exposed-the-kotlin-based-orm-framework",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/V8F9VH/",
+                "title": "An Introduction to JetBrains Exposed: The Kotlin-based ORM Framework",
+                "subtitle": "",
+                "track": "JVM United",
+                "type": "general (30mins)",
+                "language": "en",
+                "abstract": "Learn about JetBrains Exposed, a Kotlin-based ORM framework, including its key features and how to build database applications.",
+                "description": "JetBrains Exposed is a Kotlin-based ORM framework that simplifies database operations. This presentation covers its key features, including support for various databases, an expressive query DSL, and the ability to handle complex queries. Attendees will gain an understanding of JetBrains Exposed and be able to begin building Kotlin-based database applications.",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 41,
+                    "code": "MJSEW7",
+                    "public_name": "Recca Chao",
+                    "biography": "後端工程師，2017 年開始使用 Laravel",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 180,
+                "guid": "cd110b04-f206-5aeb-9b18-1e8208729c9f",
+                "logo": "",
+                "date": "2023-07-29T10:10:00+08:00",
+                "start": "10:10",
+                "duration": "00:30",
+                "room": "AU",
+                "slug": "coscup-2023-180--kotlin---podcast-",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/J7RHCH/",
+                "title": "自家用 Kotlin 爬蟲實戰：以統整多平台 Podcast 聆聽數據為例",
+                "subtitle": "",
+                "track": "JVM United",
+                "type": "general (30mins)",
+                "language": "zh-tw",
+                "abstract": "使用爬蟲截取網頁上的資訊已是常見的資料處理技術。由於數據分析的盛行，市面上的教學大多以 Python 示例。但其實剖析爬蟲技術的核心，坐擁 JVM 生態系的 Kotlin 也能輕鬆辦到。在這場分享裡，將會以 Kotlin 爐邊漫談 Podcast 節目製作組需要統整各平台聆聽數的需求為例，說明如何使用 JVM 生態系的解析套件及爬蟲框架抓取目標資料並整理儲存至資料庫。另外，也會針對不同的資料格式來源、定時排程等延伸主題進行討論。聽完這場分享後，Kotlin 初學者也能快速上手，快速成為爬蟲擷取能手。",
+                "description": "預計分享大綱如下：\r\n* Kotlin 爐邊漫談 Podcast 的故事\r\n* 需求分析\r\n* 探討爬蟲技術核心\r\n* 以 Kotlin 實作爬蟲原型\r\n  - 探索可用套件\r\n  - 抓取 Raw 資料\r\n  - 轉成資料模型\r\n  - 存進資料庫\r\n* 更進一步\r\n  - 關於資料格式\r\n  - 定時運行\r\n* 總結與回顧",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 85,
+                    "code": "S3HPPG",
+                    "public_name": "范聖佑",
+                    "biography": "JetBrains 技術傳教士，負責推廣 IDE 工具及開放原始碼技術。平時醉心於技術研究，期待能將複雜的技術詞彙以通俗易懂的方式讓人人都能吸收。工作之餘積極參與 PHP 及 Kotlin 社群運作，曾創辦 Laravel 道場、LaravelConf Taiwan、Kotlin 讀書會/練功場及 Kotlin 中文開發者大會，錄了 Kotlin 爐邊漫談 Podcast，還意外出了一本《Kotlin Collection 全方位解析攻略》。技術之外是位甜點吃貨。",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 156,
+                "guid": "a4277599-d210-52d5-a824-983f3d25306e",
+                "logo": "",
+                "date": "2023-07-29T10:50:00+08:00",
+                "start": "10:50",
+                "duration": "00:30",
+                "room": "AU",
+                "slug": "coscup-2023-156--coroutine-",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/AHEXJF/",
+                "title": "替你的 Coroutine 加上測試",
+                "subtitle": "",
+                "track": "JVM United",
+                "type": "general (30mins)",
+                "language": "zh-tw",
+                "abstract": "單元測試能夠讓你的程式碼變得更強健，但是在非同步任務的範疇內，測試變得不太容易，因為任務會在不同的 Thread/Coroutine 上運行，而任務完成的時間可能會不一，根據不同的完成時間，可能會產生不同的測試結果。\r\n\r\n那麼要如何測試 Kotlin Coroutine 呢？\r\n\r\nKotlin Coroutine 函式庫內包含了 kotlinx-coroutine-test 類，在這裡面包含了許多針對 Kotlin Coroutine 所提供的方法。利用這些方法，我們就可以寫出簡單、易懂的 Coroutine 單元測試。",
+                "description": "",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 176,
+                    "code": "GJA7GD",
+                    "public_name": "Andy Lu",
+                    "biography": "Android 開發者，Kotlin 讀書會志工。\r\n專長 Kotlin 以及 Flutter，喜愛學習以及分享。\r\n⟪Kotlin 小宇宙 - 使用 Coroutine 優雅的執行非同步任務⟫ 作者",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 98,
+                "guid": "102bf22e-27bd-508c-b247-49a55cd29a80",
+                "logo": "",
+                "date": "2023-07-29T11:30:00+08:00",
+                "start": "11:30",
+                "duration": "00:30",
+                "room": "AU",
+                "slug": "coscup-2023-98-a-deep-dive-into-constant-dynamic-invokedynamic-and-indy",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/CDLSBW/",
+                "title": "A deep dive into Constant Dynamic/InvokeDynamic、and INDY",
+                "subtitle": "",
+                "track": "JVM United",
+                "type": "general (30mins)",
+                "language": "en",
+                "abstract": "隨著Java即將來到21，更多的特性以及項目實驗特性也即將能投入JVM環境的日常開發。但您是否有深入研究過JVM Bytecode裡那些常量及指令碼的應用？\r\n\r\n在本次議程中，將帶領各位探討動態常量(Constant Dynamic/InvokeDynamic)以及指令碼invokedynamic(INDY)所解決的情境，以及他們是如何實際影響編譯器位元組碼的生成，進一步在JVM生態系投下震撼彈。",
+                "description": "本議程將介紹Constant Dynamic/InvokeDynamic以及INDY的解決情境以及實際應用場景。",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 131,
+                    "code": "QZCYVZ",
+                    "public_name": "Kyle Lin",
+                    "biography": "編譯器研究者，V語言編譯器開發社群成員，TWKUG志工。\r\n\r\n主要致力於開源文化的推廣及實踐。",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 64,
+                "guid": "b1d1d333-1be4-5983-a894-26d703de38d8",
+                "logo": "",
+                "date": "2023-07-29T12:50:00+08:00",
+                "start": "12:50",
+                "duration": "00:30",
+                "room": "AU",
+                "slug": "coscup-2023-64-writing-os-updater-app-for-android",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/WWK9DU/",
+                "title": "Writing OS Updater App for Android",
+                "subtitle": "",
+                "track": "JVM United",
+                "type": "general (30mins)",
+                "language": "en",
+                "abstract": "In this talk, we will look into how CalyxOS Team rewrote Android's sample OS updater app from Java to Kotlin while addressing deprecation and other issues along the process resulting in a modern app that any AOSP-based OS can use to update their A/B partition scheme devices.",
+                "description": "Android is used all over the world by millions of people every day. Multiple companies deploy updates for these devices every once in a while to update the underlying system with the latest updates containing various security-bug fixes and new features.\r\n\r\nThis talk aims to showcase how updates are deployed on these Android devices using the OS updater application and how the team at CalyxOS rewrote Android's sample OS updater app from Java to Kotlin and Material3 following the latest recommended guidelines and libraries.\r\n\r\nThis talk aims to be targeted at beginners and skilled developers, including normal users who use Android devices and are interested in learning how the OS on their system is updated in the background.\r\n\r\n* CalyxOS is an Android mobile operating system that puts privacy and security into the hands of users. Plus, proactive security recommendations and automatic updates take the guesswork out of keeping your personal data personal.",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 83,
+                    "code": "AZWKMC",
+                    "public_name": "Aayush Gupta",
+                    "biography": "Aayush Gupta (he/him), Android Developer and Developer Relations, is a self-taught developer, working on FOSS and various communities, prominently XDA Developers, for the past few years. He holds multiple titles in numerous communities, both personal and professional. Working remotely from Bhilai, India, he actively contributes to developing Android-related projects. In addition, he has been organizing Google Developer Groups Bhilai, a.k.a GDG Bhilai, to support the local community.",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 137,
+                "guid": "ce9c1de1-560d-52b0-9a30-c87a65107e3b",
+                "logo": "",
+                "date": "2023-07-29T13:30:00+08:00",
+                "start": "13:30",
+                "duration": "00:30",
+                "room": "AU",
+                "slug": "coscup-2023-137-when-intellij-idea-meets-amazon-codewhisperer-",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/QKUKKZ/",
+                "title": "When IntelliJ IDEA Meets Amazon CodeWhisperer.",
+                "subtitle": "",
+                "track": "JVM United",
+                "type": "general (30mins)",
+                "language": "zh-tw",
+                "abstract": "如果您認識 GitHub Copilot 的話，應該就會秒懂 Amazon CodeWhisperer 是什麼了。最近 Amazon 也跟風發表自家的 Generative Ai，將 CodeWhisperer 納入其中。而在這次 CodeWhisperer 的更新中，Kotlin 被新增為 CodeWhisperer 所支援的語言。在這次的分享中，講者將會選擇 Kotlin 語言，介紹這主題，有興趣的朋友，可以先自行安裝 IntelliJ IDEA ，並在 Plugins 新增 AWS Toolkit 功能（這部分的操作可以參考我的 Youtube 教學影片 https://youtu.be/tBlKk22XOWM ），先試用一下。",
+                "description": "",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 164,
+                    "code": "JBDWGM",
+                    "public_name": "楊舒安",
+                    "biography": "《開發聊天機器人比你想的還簡單！》一書作者。\r\n（本書介紹： https://www.tenlong.com.tw/products/9786267146521?list_name=lv ，電子書試閱： https://reurl.cc/9Vd9mX ）\r\n\r\n前幾年熱衷於影片拍攝&製作，在2020年&2021年曾和社群朋友組團參加鐵人賽（影片教學組）。之後不定期會在自己同名的 Youtube 頻道上更新教學影片。\r\n\r\n不定時會出沒於技術社群小聚。",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 429,
+                "guid": "de212774-c6fa-566d-89d0-2b67d460a81d",
+                "logo": "",
+                "date": "2023-07-29T14:10:00+08:00",
+                "start": "14:10",
+                "duration": "00:30",
+                "room": "AU",
+                "slug": "coscup-2023-429--fido--spring-authorization-server--",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/8FL7D7/",
+                "title": "看 FIDO 與 Spring Authorization Server 如何斬斷密碼的枷鎖！",
+                "subtitle": "",
+                "track": "JVM United",
+                "type": "general (30mins)",
+                "language": "zh-tw",
+                "abstract": "密碼已成為我們生活中不可避免的一部分，但 FIDO 與 Spring Authorization Server 的結合卻讓我們看到了破除密碼依賴的可能。這次我們將帶你探討如何利用 FIDO 的無密碼認證(PASSWORDLESS AUTHENTICATION)與 Spring Authorization Server 聯合創造一個更安全、更便利的驗證體驗。讓我我們斬斷密碼的枷鎖，讓身份驗證不再繁瑣。密碼時代的結束，無密碼時代的開始，從這裡起步。",
+                "description": "",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 384,
+                    "code": "TCPLT9",
+                    "public_name": "朱尚禮 samzhu",
+                    "biography": "任職於國泰金控不小心開始雲原生之後就回不去的 Java 開發者",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 154,
+                "guid": "a073c07b-1bb4-5e21-832c-712098f05137",
+                "logo": "",
+                "date": "2023-07-29T14:50:00+08:00",
+                "start": "14:50",
+                "duration": "00:30",
+                "room": "AU",
+                "slug": "coscup-2023-154-arrow-kt-2-0---kotlin--fp-library",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/3YQUVL/",
+                "title": "Arrow KT 2.0 預覽, 更道地 Kotlin 的 FP Library",
+                "subtitle": "",
+                "track": "JVM United",
+                "type": "general (30mins)",
+                "language": "zh-tw",
+                "abstract": "Arrow KT 2.0 來了，一個 Open Source 的 Kotlin functional programming 補完計畫。從 0.x 的很 category theory 到用 Suspend 取代 IO Monad. 2.0 除了支援 KMM 又更往 Kotlin 的道地用法靠瓏。本分享將會討論\r\n\r\n- Arrow KT 0.x 到 2.x 轉變\r\n- Arrow KT Migration Tool\r\n- Collections and Recursive\r\n- Error Handling with FP",
+                "description": "",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 174,
+                    "code": "EPCRZP",
+                    "public_name": "Brandy Chang",
+                    "biography": "10多年後端開發，主力是 Kotlin x Java backend\r\n在這個大 DevOps 時代，都略懂略懂的雜工\r\n- Kotlin Meetup #4 #9\r\n- Kotlin 讀書會導讀",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 197,
+                "guid": "cfeb99fd-e136-54ff-ab27-1b3db37c0a1b",
+                "logo": "",
+                "date": "2023-07-29T15:30:00+08:00",
+                "start": "15:30",
+                "duration": "00:30",
+                "room": "AU",
+                "slug": "coscup-2023-197-deep-dive-into-compose-immutable-and-stable-annotation",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/FZ3C8S/",
+                "title": "Deep dive into Compose Immutable and Stable annotation",
+                "subtitle": "",
+                "track": "JVM United",
+                "type": "general (30mins)",
+                "language": "zh-tw",
+                "abstract": "1. 介紹 Jetpack Compose 與 Declarative UI\r\n2. 介紹 Jetpack Compose 渲染機制與效能考量\r\n3. Immutable 與 Stable 講解以及源碼分析",
+                "description": "必備前置技能：\r\n1. 需要對 Kotlin, Swift 或是任何現代物件導向程式語言有一些基礎知識。\r\n\r\n其他前置技能，如果有的話會更好：\r\n1. Compiler 的一些基本知識，像是 Abstract syntax tree。\r\n2. 知道 Kotlin Compiler Plugin 或是寫過 KSP。\r\n3. 實際上有在開發 Jetpack Compose 或是其他類似框架，像是 Flutter 或是 Swift UI。\r\n\r\n\r\n內容還包含了：\r\n- 帶你了解 Jetpack Compose compile 跟 runtime\r\n- skippable 跟 restartable 的用途以及源碼",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 213,
+                    "code": "ZZ9AAF",
+                    "public_name": "彥彬",
+                    "biography": "Software Engineer with a strong passion for clean code, testing, and software architecture. Over seven years of experience in Android.",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              }
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "date": "2023-07-30",
+          "day_start": "2023-07-30T04:00:00+08:00",
+          "day_end": "2023-07-31T03:59:00+08:00",
+          "rooms": {
+            "RB 105": [
+              {
+                "id": 518,
+                "guid": "602b11ad-8072-580d-b5dc-81854e41390e",
+                "logo": "",
+                "date": "2023-07-30T08:50:00+08:00",
+                "start": "08:50",
+                "duration": "00:10",
+                "room": "RB 105",
+                "slug": "coscup-2023-518-coscup-2023-welcome-day-2",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/FM3S7U/",
+                "title": "COSCUP 2023: Welcome Day 2",
+                "subtitle": "",
+                "track": "Main Track",
+                "type": "open (10mins)",
+                "language": "en",
+                "abstract": "Welcome COSCUP 2023 Day 2",
+                "description": "",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 471,
+                    "code": "9NRTBF",
+                    "public_name": "COSCUP Team",
+                    "biography": "We are some random volunteers to make all these happen with YOU♥️ Join us: volunteer@coscup.org / https://volunteer.coscup.org/",
+                    "answers": []
+                  },
+                  {
+                    "id": 2,
+                    "code": "CZHHLS",
+                    "public_name": "Denny Huang",
+                    "biography": null,
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 317,
+                "guid": "b119a016-13ca-5990-87d1-a29b3bf7077f",
+                "logo": "",
+                "date": "2023-07-30T09:00:00+08:00",
+                "start": "09:00",
+                "duration": "00:45",
+                "room": "RB 105",
+                "slug": "coscup-2023-317--prime-session-why-and-how-to-build-open-source-maps-with-the-protomaps-project",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/TKMDCL/",
+                "title": "[Prime session] Why and How to build open source maps with the Protomaps project",
+                "subtitle": "",
+                "track": "Main Track",
+                "type": "prime session",
+                "language": "en",
+                "abstract": "地圖是生活中相當常用的軟體。Google 與 Apple 地圖無所不在，但它們顯然都是封閉原始碼的軟體，對開發者來說是黑箱。這些供應商對某些用途來說並不好用，例如公共衛生、政府服務與新聞地圖。\r\n\r\n在本次演講中，我將帶您了解：\r\n\r\n1) Leaflet 與 MapLibre 等函式庫與 GIS 有何相關之處，在哪裡使用它們，以及它們如何讓沒有地理背景的 JavaScript 程式設計師使用地圖\r\n\r\n2) OpenStreetMap 資料集與全端互動地圖 API 之間的區別製作\r\n\r\n3) 地圖的設計與資料注意事項，如何製作縮小的圖磚化地圖檢視、地圖偏差與國際化\r\n\r\n最後，我將會討論開放原始碼的 Protomaps 專案，這是一個用於製作與提供圖磚化網路地圖的完整系統。我將把它與其他開放與專有的替代方案進行比較，展示它的使用者，並解釋我打算如何使其長期可持續發展。（中文翻譯，原文請見英文版）（由 OpenStreetMap x Wikidata 臺灣社群與 COSCUP 大會聯合邀請）",
+                "description": "",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 297,
+                    "code": "UFXLRV",
+                    "public_name": "Brandon Liu",
+                    "biography": "I'm the lead developer of the Protomaps open source project - a self-hostable alternative to Google Maps and other proprietary APIs, built on open data. I used to live in the United States, now I live in Taipei, Taiwan!",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 153,
+                "guid": "d6ea1365-e9bf-5a41-b95b-91bbe3298316",
+                "logo": "",
+                "date": "2023-07-30T10:00:00+08:00",
+                "start": "10:00",
+                "duration": "00:30",
+                "room": "RB 105",
+                "slug": "coscup-2023-153-wikidatacon-2023--",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/NG9MZM/",
+                "title": "Wikidatacon 2023 年在臺灣！",
+                "subtitle": "",
+                "track": "OpenStreetMap x Wikidata Open Content Track",
+                "type": "general (30mins)",
+                "language": "zh-tw",
+                "abstract": "Wikidatacon 自 2017 年在德國發起，是目前全球最大型以 Wikidata、Wikibase 為主軸的國際雙年會，在 2022 年臺灣維基數據社群偕同台灣維基媒體協會爭取到主辦權，今年度的會議將會在臺灣舉辦！",
+                "description": "Wikidatacon 自 2017 年在德國發起，是目前全球最大型以 Wikidata、Wikibase 為主軸的國際雙年會，在 2017 、 2019 都在德國舉辦後，2021 年首次移師到巴西舉辦。\r\n在 2022 年臺灣維基數據社群偕同台灣維基媒體協會爭取到 Wikidatacon 主辦權，今年度的會議將會 10/28 - 10/29 在臺灣主辦，並同時也會有線上參加的場地供全球的夥伴共同參與。\r\n\r\n本議程將會向各位夥伴簡介什麼是 Wikidatacon 以及如何投稿 Wikidatacon，還有更重要的是 Wikidatacon 將會有什麼樣的活動，可以如何報名及參與都在本次的內容中！",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 113,
+                    "code": "WGV8UG",
+                    "public_name": "王文岳",
+                    "biography": "Wikidata Taiwan 臺灣維基數據社群共同發起人，新樂園藝術空間維基技術協力。\r\n\r\n過去曾任第一屆第一期立法院開放國會委員會民間委員、國家文化記憶庫：110-111年社群經營與運作模式建置計畫資訊技術協力、社團法人台灣維基媒體協會秘書長，曾共同主持有「客家@維基」資料多元應用專案以及執行李梅樹紀念館國家文化記憶庫專案「臺灣美術巨擘的最後一程. 李梅樹告別式相關文物掃描」等資料開放專案。\r\n\r\n致力於連結開放知識與地方人文。 「我做的事情不難，只是希望能夠讓每一筆資料都能夠被看見」",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 342,
+                "guid": "ae11ffcf-eb18-5cc5-bc15-f728916efdc2",
+                "logo": "",
+                "date": "2023-07-30T10:30:00+08:00",
+                "start": "10:30",
+                "duration": "00:50",
+                "room": "RB 105",
+                "slug": "coscup-2023-342-gis-qgis",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/R977RN/",
+                "title": "開源GIS開講：回顧QGIS應用現況與瓶頸",
+                "subtitle": "",
+                "track": "OpenStreetMap x Wikidata Open Content Track",
+                "type": "general (30mins)",
+                "language": "zh-tw",
+                "abstract": "本次 OpenStreetMap x Wikidata 議程特意開設開源 GIS 討論議程，探究成功的開源專案 QGIS，在台灣本地的面臨社群動能不足狀況，翻譯軟體或是教材進度遠遠落後開發進度，試圖在本次論壇識別問題並提出解決之道",
+                "description": "GIS是一個相當綜合而且難專精的學科，在台灣除了商業軟體如ArcGIS之外，拜全球開源風潮，有可以免費取得與使用的QGIS。近期Facebook社團QGIS小學堂有大量新手發問，而且問題像是那邊找地理資料，設定資料集坐標系統這類基本問題，推測有大量傳統上沒有教GIS的科系或是社會大學體系、高中地理，有大量教學需要，負責授課老師的沒辦法教太多（因原自身非地理資訊能力或亦未經訓練者），需要學生自行探索。再加上今年ArcGIS開放個人商業授權方案（目前提供個人帳號申請，但可用功能非常侷限），工具的近用性大為提昇，導致沒有相關基礎的學生需要自行摸索，諸如QGIS小學堂。儘管QGIS是相當成功的開源專案，有活躍的開發者社群，以及健全的商業服務模式，但在台灣本地這邊，社群規模不足以支援軟體翻譯以及教材翻譯工作。",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 200,
+                    "code": "VXCVBE",
+                    "public_name": "林宥伯",
+                    "biography": "在提供服務過程，接觸了GIS領域約莫四年至今，累積的經驗與瓶頸，希望能藉由分享，與開放社群的夥伴共同發想，找出可行的解決方案，推動領域發展",
+                    "answers": []
+                  },
+                  {
+                    "id": 18,
+                    "code": "EEZE3E",
+                    "public_name": "Dennis Raylin Chen",
+                    "biography": "台灣 ê OpenStreetMap 圖客 kah Wikidata 貢獻者(User:Supaplex)，sī 臺北 OpenStreetMap x Wikidata 月聚 ê 共同主持人。最近攏 teh 大會用臺灣台語講演講。嘛是臺灣維基協會 ê 理事之一。",
+                    "answers": []
+                  },
+                  {
+                    "id": 327,
+                    "code": "N8BHJW",
+                    "public_name": "林政道",
+                    "biography": null,
+                    "answers": []
+                  },
+                  {
+                    "id": 326,
+                    "code": "73VKU9",
+                    "public_name": "王祖修",
+                    "biography": null,
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 189,
+                "guid": "73b22306-30f1-5616-abe8-85d4794acc85",
+                "logo": "",
+                "date": "2023-07-30T11:20:00+08:00",
+                "start": "11:20",
+                "duration": "00:30",
+                "room": "RB 105",
+                "slug": "coscup-2023-189-openstreetmap--",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/MLFUV3/",
+                "title": "OpenStreetMap上那些看得到的電：電廠、變電所和電塔",
+                "subtitle": "",
+                "track": "OpenStreetMap x Wikidata Open Content Track",
+                "type": "general (30mins)",
+                "language": "zh-tw",
+                "abstract": "本主題將會討論那些我們在 OpenStreetMap 上可以瀏覽和繪製的電力資訊，讓大家可以在政論節目以外，有另一種方式能認識台灣的電力基礎建設。此外，還會探討一些繪製及瀏覽電力圖徵可以運用的工具和方式，以及在 OpenStreetMap 是如何標注這些電力圖徵的。",
+                "description": "你有曾經在 OpenStreetMap 上注意過那些編輯上很擾人的電線嗎？如果沿著電線看地圖，有一些有趣的資訊就跑出來了。\r\n\r\n你可以在 OpenStreetMap 上看到發電廠、變電所、以及最近很常被討論的離岸風電及太陽能板。縮放等級14以上時，高壓電線也會顯示出來。大家對這些電力基礎建設平常應該很陌生，只能從新聞媒體略知一二，卻不知道這些設施到底在哪裡，也不知道電是如何送到我們的家中。OpenStreetMap 特別有一個叫做 power=* 的 key 可以把這些圖徵畫出來，你也可以在 OpenInfraMap 上看到醒目標示的這些圖徵，圖像化的觀察電力是如何存在於我們的週遭。\r\n\r\n台灣的電力在近幾年，無論在政論節目或是婆婆媽媽茶餘飯後，都是被熱門討論的問題，但是我們大部份的人對電力瞭解的實在不多。在參與這些討論前，不妨先從另一個方式重新認識一下我們習以為常的電吧。",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 207,
+                    "code": "SJN8W9",
+                    "public_name": "tntchn",
+                    "biography": "嗨我是 tntchn（唸：tan），本業產品設計師，因為想瞭解一些地理的資訊開始接觸了 OpenStreetMap 跟 Wikidata，自認在上面的編輯經驗應該可以稱得上中階😅 在編輯的同時，也希望自己能將花時間收集到的地理知識分享給所有感興趣的人。",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 448,
+                "guid": "f0ef7920-4508-5ca3-bfab-1b4934fbfa24",
+                "logo": "",
+                "date": "2023-07-30T11:50:00+08:00",
+                "start": "11:50",
+                "duration": "00:30",
+                "room": "RB 105",
+                "slug": "coscup-2023-448--openstreetmap-",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/NHRACC/",
+                "title": "政府開放資料在 OpenStreetMap 內的匯入狀況與挑戰",
+                "subtitle": "",
+                "track": "OpenStreetMap x Wikidata Open Content Track",
+                "type": "general (30mins)",
+                "language": "zh-tw",
+                "abstract": "隨著臺灣政府開放資料的日漸完善，適合匯入 OpenStreetMap (OSM) 的地理資訊資料也相繼出現，例如各縣市地址與建物。然而  在台灣 OSM 地圖資料的成長，與開放資料的資料集內容十分龐大下，如何匯入與維護變成如今社群關注的焦點。本議程將帶大家介紹近幾年來匯入進行的狀況與目前我們遭遇的各種議題。",
+                "description": "",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 401,
+                    "code": "GX8CVP",
+                    "public_name": "littlebtc",
+                    "biography": null,
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 393,
+                "guid": "0e7a98f3-6ac4-5289-b242-0a25050f9189",
+                "logo": "",
+                "date": "2023-07-30T13:20:00+08:00",
+                "start": "13:20",
+                "duration": "00:30",
+                "room": "RB 105",
+                "slug": "coscup-2023-393--chatgpt--wikidata--",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/KYY7UQ/",
+                "title": "可以召喚 ChatGPT 使用 WikiData 資料嗎？",
+                "subtitle": "",
+                "track": "OpenStreetMap x Wikidata Open Content Track",
+                "type": "general (30mins)",
+                "language": "zh-tw",
+                "abstract": "探討 ChatGPT 在開放資料領域的案例研究以及與 Wikidata 的整合應用。首先，介紹目前使用 ChatGPT 應用於公開資料集、開放街圖 、維基百科的查詢。進一步嘗試在 ChatGPT 與 Wikidata 的整合可能姓。",
+                "description": "",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 355,
+                    "code": "L3F7JN",
+                    "public_name": "planetoid",
+                    "biography": "工程師",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 275,
+                "guid": "323daf76-d2ad-5c03-8f47-556d4782b68f",
+                "logo": "",
+                "date": "2023-07-30T13:50:00+08:00",
+                "start": "13:50",
+                "duration": "00:30",
+                "room": "RB 105",
+                "slug": "coscup-2023-275--",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/E9EXSJ/",
+                "title": "跨語言協作：打破全球知識分享的語言障礙",
+                "subtitle": "",
+                "track": "OpenStreetMap x Wikidata Open Content Track",
+                "type": "general (30mins)",
+                "language": "zh-tw",
+                "abstract": "利用 AI 驅動的解決方案和社群協作來填補維基百科的語言差距。介紹基於 GPT-4 的多語言工具以簡化翻譯和文章改善流程。討論跨語言協作策略以及 AI 對於無障礙、公平的全球知識分享的影響。",
+                "description": "（AI 的人類奴工詢問 ChatGPT 有什麼想要在 Wikimania 分享的內容，而這就是它的提案。而在前往新加坡之前，我們先到 COSCUP 分享）\r\n\r\n這場 10 分鐘的演講，將聚焦於利用人工智能與社區協作，來跨越維基百科的語言隔閡，提升在其多語言版本間的可取用性與公平性的觀念。\r\n\r\n我們將先簡短地討論在維基百科各種語言版本間存在的文章質量和數量的差異，強調需要有效的工具和協作方式來解決這些問題。\r\n\r\n接下來，我們將介紹一款基於 GPT-4 的多語言翻譯和擴展工具，該工具能夠幫助編輯者更有效地翻譯和改進文章。這種創新工具利用先進的自然語言處理和機器學習演算法，來生成高品質的翻譯和內容建議，簡化了跨語言的編輯流程。\r\n\r\n我們將探討如何培養跨語言的維基百科社區協作策略，強調將編輯者跨語言連結起來以促進意見、資源和最佳實踐的交流的重要性。透過培育這樣的協作努力，我們可以朝向一個更具包容性、多元性和可取用性的維基百科知識庫邁進。\r\n\r\n我們將以簡短的概述來介紹 GPT-4 多語言工具的功能和能力，並提出一些有效且負責任地將其融入編輯流程的建議，而不進行現場示範。\r\n\r\n最後，我們將著重於 AI 驅動工具對維基百科未來可能產生的影響，強調持續創新和協作在創造一個更具可取用性和公平性的全球知識分享平台上的重要性。",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 96,
+                    "code": "SMCCYY",
+                    "public_name": "Irvin",
+                    "biography": "Irvin Chen，Mozilla / MozTW（Mozilla 台灣社群）貢獻者，免費且開放的社群空間摩茲工寮的 keyholder 之一。偶爾也會貢獻維基百科（用戶名：Irvin）。近期，Irvin 的興趣在理解數位政策與法規對於維基百科等協作平台的影響。",
+                    "answers": []
+                  },
+                  {
+                    "id": 269,
+                    "code": "QRM3VB",
+                    "public_name": "ChatGPT",
+                    "biography": "ChatGPT 是由 OpenAI 開發的先進 AI 語言模型，基於 GPT-4 架構。ChatGPT 被設計來協助並支持使用者進行各種範疇的任務，專長於理解自然語言，並生成如人類般的回應。憑藉著龐大的知識庫和專注於推廣多元、易取用及公平的知識分享，ChatGPT 成為探索跨語言協作創新解決方案的理想 AI 夥伴。作為人工智能、機器學習及自然語言處理最尖端研究的產物，ChatGPT 致力於幫助使用者利用 AI 的力量來創造像維基百科這樣更為聯繫且包容的知識庫，進而促進全球協作與理解。\r\n\r\n（Irvin 是它的人類助手，協助處理包括提交提案以及設置簡報環境等會議事宜。）",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 110,
+                "guid": "57a19cff-a487-5c25-aa38-0b64cdffa645",
+                "logo": "",
+                "date": "2023-07-30T14:20:00+08:00",
+                "start": "14:20",
+                "duration": "00:30",
+                "room": "RB 105",
+                "slug": "coscup-2023-110---wikidata---wikidata---",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/SYJME3/",
+                "title": "台灣 ê Wikidata 經驗 - 對迒語言連結文章到連結資料庫，Wikidata 按怎連結全世界所有 ê 智識",
+                "subtitle": "",
+                "track": "OpenStreetMap x Wikidata Open Content Track",
+                "type": "general (30mins)",
+                "language": "zh-tw",
+                "abstract": "注意：演講sī用臺灣台語來講\r\n\r\nTī 早期 ê 時陣，Wikidata 主要處理 WIkipedia 迒語言連結，較無人關心 Wikidata 本底 ê 項目之間 ê 連結。毋過這馬因為社群拍拚勞力，Wikidata 變 khah 大包括 ê 範圍較闊，加添 koh-khah 濟 ê 聲稱 kah 第三方資料庫 ê 連結，m̄-sī kan-na Wikipedia 文章抑是 Wiki Commons 濟媒體 niā-niā。我 ē 分享 Wikidata tī-teh 臺灣處理臺灣政府 ê 開放資料平台 ê 資料集 kah 群眾共編 ê 資料集 ê 經驗，尤其 sī Wikidata kah OpenStreetMap 臺灣社群合作的事項。\r\n\r\nImportant: the talk will be presented in Taiwanese Hokkien\r\n\r\nIn the early days, Wikidata's main purpose is dealing with crosslink Wikipedia articles to different language versions of Wikipedia. Now due to the community effect,  Wikidata has expanded its capacity to add more statements and links to more third-party databases, and not only just links to Wikipedia articles. I will talk about the Wikidata experience in Taiwan of procession datasets from the Taiwan government's open data platform, and crowd-sourcing platform, especially emphasis on working with the OpenStreetMap Taiwan community.",
+                "description": "注意：演講sī用臺灣台語來講\r\n\r\n這場演講希望 tuì Wikidata kah OpenStreetMap 攏 ū 小可仔了解 ê 人來聽，以早社群 kan-na 用 Wikidata 處理 Wikipedia 迒語言連結，毋過 Wikidata 擴大影響，變成收錄真濟第三方資料庫編號kah連結。我 ē tuì 臺灣社群處理溪流、村里、學校、NSI-index，甚至 sī 墓仔埔資料，一个一个講清楚，說分明。\r\n\r\nImportant: the talk will be presented in Taiwanese Hokkien\r\n\r\nI hope the attendees will have some basic knowledge of both Wikidata and OpenStreetMap. In the early days of Wikidata, it is only used for crosslinking between language versions of Wikipedia. Nowadays Wikidata is expanding, including more and more third-party database IDs and links. I will talk about Taiwan's experience of dealing with rivers, villages, schools, NSI-index, and even cemetery dataset",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 18,
+                    "code": "EEZE3E",
+                    "public_name": "Dennis Raylin Chen",
+                    "biography": "台灣 ê OpenStreetMap 圖客 kah Wikidata 貢獻者(User:Supaplex)，sī 臺北 OpenStreetMap x Wikidata 月聚 ê 共同主持人。最近攏 teh 大會用臺灣台語講演講。嘛是臺灣維基協會 ê 理事之一。",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 173,
+                "guid": "19116d5d-0ab0-5f38-9d1c-ad1cb8f934f7",
+                "logo": "",
+                "date": "2023-07-30T14:50:00+08:00",
+                "start": "14:50",
+                "duration": "00:30",
+                "room": "RB 105",
+                "slug": "coscup-2023-173-wikidata",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/8KLBUN/",
+                "title": "Wikidata基礎編輯教學",
+                "subtitle": "",
+                "track": "OpenStreetMap x Wikidata Open Content Track",
+                "type": "general (30mins)",
+                "language": "zh-tw",
+                "abstract": "相信大家一定都聽過、用過維基百科吧！但其實在維基百科的條目背後，是靠著「維基數據」來連結、支撐著龐大的資料量。如果想加入維基的大家庭，不妨從「維基數據」開始吧！透過這次的入門工作坊，你將對維基有著更深入的了解。",
+                "description": "",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 195,
+                    "code": "SGBDLY",
+                    "public_name": "劉健豐",
+                    "biography": "Wikidata Taiwan社群成員、現為準大三生",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 519,
+                "guid": "03a54998-0b85-5882-a4e0-d9608f409838",
+                "logo": "",
+                "date": "2023-07-30T15:35:00+08:00",
+                "start": "15:35",
+                "duration": "00:30",
+                "room": "RB 105",
+                "slug": "coscup-2023-519-coscup-infrastructure-review",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/RNKY8Q/",
+                "title": "COSCUP Infrastructure Review",
+                "subtitle": "",
+                "track": "Main Track",
+                "type": "general (30mins)",
+                "language": "zh-tw",
+                "abstract": "如果您好奇這個已連續舉辦近20年、純志工籌辦、連票都不用買、集結眾多社群參展、數十軌同場較勁、超過三百場議程的活動是怎麼煉成的，請參加此議程聽聽  COSCUP staff 第一手分享。\r\n\r\n適合參加者：會眾、社群活動組織者、有興趣參與 COSCUP 2024 籌辦的人",
+                "description": "",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 471,
+                    "code": "9NRTBF",
+                    "public_name": "COSCUP Team",
+                    "biography": "We are some random volunteers to make all these happen with YOU♥️ Join us: volunteer@coscup.org / https://volunteer.coscup.org/",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 489,
+                "guid": "af618897-a10e-55f5-b032-c176996a6a8d",
+                "logo": "",
+                "date": "2023-07-30T16:20:00+08:00",
+                "start": "16:20",
+                "duration": "00:15",
+                "room": "RB 105",
+                "slug": "coscup-2023-489-closing-day-2",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/CEVGDA/",
+                "title": "Closing Day 2",
+                "subtitle": "",
+                "track": "Main Track",
+                "type": "opening & closing",
+                "language": "en",
+                "abstract": "Closing Day 2",
+                "description": "",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 471,
+                    "code": "9NRTBF",
+                    "public_name": "COSCUP Team",
+                    "biography": "We are some random volunteers to make all these happen with YOU♥️ Join us: volunteer@coscup.org / https://volunteer.coscup.org/",
+                    "answers": []
+                  },
+                  {
+                    "id": 4,
+                    "code": "ZVDG89",
+                    "public_name": "Tzu Yin Hong",
+                    "biography": null,
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 474,
+                "guid": "9e269021-1713-50fa-a059-97a78fb790b2",
+                "logo": "",
+                "date": "2023-07-30T16:35:00+08:00",
+                "start": "16:35",
+                "duration": "00:30",
+                "room": "RB 105",
+                "slug": "coscup-2023-474--lightning-talk--",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/KFFWVA/",
+                "title": "⚡Lightning talk / 閃電秀⚡",
+                "subtitle": "",
+                "track": "Main Track",
+                "type": "Misc. - Session",
+                "language": "en",
+                "abstract": "-",
+                "description": "閃電秀講者指南 / Lightning talk speaker guide\r\nhttps://hackmd.io/lPjyoJPgSOCr9gP8X5TdCg\r\n\r\n錄取名單:\r\n\r\n- 從 0 開始做一個 Linux Kernel 讀書會\r\n- UbuCon Asia x LibreOffice conf asia in Indonesia\r\n- 從事程式教育的心得分享\r\n- 啊是有很開放嗎?\r\n- All stack trash talk\r\n- 伺服器重啟攻擊手法分享\r\n- GNOME Asia Summit 2023\r\n- 開源軟體中文化幫幫忙\r\n- 想要有 100Gbps 外網嗎？ 加入我們吧\r\n- 給我三分鐘",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 471,
+                    "code": "9NRTBF",
+                    "public_name": "COSCUP Team",
+                    "biography": "We are some random volunteers to make all these happen with YOU♥️ Join us: volunteer@coscup.org / https://volunteer.coscup.org/",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              }
+            ],
+            "AU": [
+              {
+                "id": 48,
+                "guid": "ed8ef556-4947-5ab8-87a7-baa52e655efe",
+                "logo": "",
+                "date": "2023-07-30T10:00:00+08:00",
+                "start": "10:00",
+                "duration": "00:30",
+                "room": "AU",
+                "slug": "coscup-2023-48-exploring-risc-v-perf-event-profiling",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/KJRHRR/",
+                "title": "Exploring RISC-V Perf Event Profiling",
+                "subtitle": "",
+                "track": "Main Track",
+                "type": "Early Birds Call For Paper - Session",
+                "language": "zh-tw",
+                "abstract": "This presentation provides an overview of perf, a performance analysis tool for Linux kernel and user program. We will explore how RISC-V ISA and SBI extensions support hardware event profiling. \r\n\r\nThe target audience includes Linux kernel developers and those interested in RISC-V architecture.",
+                "description": "",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 68,
+                    "code": "83A7DR",
+                    "public_name": "林宇謙",
+                    "biography": "RISC-V system software engineer",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 392,
+                "guid": "04f59d10-5488-5b5a-84ca-a5f194532bec",
+                "logo": "",
+                "date": "2023-07-30T10:40:00+08:00",
+                "start": "10:40",
+                "duration": "00:30",
+                "room": "AU",
+                "slug": "coscup-2023-392-building-an-iot-monitoring-app-with-influxdb-python-and-flask-with-edge-to-cloud-replication",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/CHRQGG/",
+                "title": "Building an IoT Monitoring App with InfluxDB, Python, and Flask with Edge to cloud replication",
+                "subtitle": "",
+                "track": "Main Track",
+                "type": "general (30mins)",
+                "language": "en",
+                "abstract": "The Internet of Things (IoT) is increasingly driven by sensor data, with devices taking measured actions based on everything from wind speed and direction, vital body functions, illumination intensity, and temperature.\r\n\r\nIn this session we will showcase how to build a fully functional sample IoT monitoring application built on the Flask framework and utilizing InfluxDB as its backend. With integrations to visualization libraries such as Plotly, and downsampling using pandas.",
+                "description": "The Internet of Things (IoT) is a fascinating realm where devices gather and utilize sensor data to make informed decisions. From monitoring wind speed and direction to tracking vital body functions, measuring illumination intensity, and observing temperature variations, sensor data plays a vital role in driving IoT applications.\r\n\r\nIn this engaging session, we will take you on a journey into the world of IoT monitoring. Using the powerful Flask framework as our foundation, we will guide you through the process of building a fully functional sample IoT monitoring application. This application will harness the potential of InfluxDB, a robust and scalable backend database designed for time-series data storage and retrieval.\r\n\r\nThroughout the session, you will learn how to integrate visualization libraries such as Plotly into your IoT monitoring application. With Plotly's rich set of features, you will be able to create interactive and visually appealing charts and graphs, providing valuable insights into the sensor data.\r\n\r\nBut that's not all! We will also delve into the concept of downsampling using pandas, a popular data manipulation library. Downsampling allows you to aggregate and summarize large volumes of sensor data, making it easier to manage and analyze.\r\n\r\nBy the end of this session, you will have gained the knowledge and practical skills to build your own IoT monitoring application. Whether you're a seasoned developer or just getting started in the IoT space, this session will equip you with the tools and techniques to make your mark in the exciting world of IoT monitoring.",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 354,
+                    "code": "FAYPPA",
+                    "public_name": "zoe steinkamp",
+                    "biography": "My name is Zoe Steinkamp and I am a developer Advocate for influxData, after working as a front end software engineer for over eight years. In my role as a Developer Advocate, I help developers to engage with InfluxData, including our database platform, open source tools, and Time-Series Data solutions. I have a passion for making developers' lives as well as learning about data science. My interests besides new technology include traveling and gardening. You can find me speaking at virtual and in person events and always feel free to reach out on linkedin.",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 72,
+                "guid": "5d252747-8938-5a0e-b193-3e94247885dc",
+                "logo": "",
+                "date": "2023-07-30T11:20:00+08:00",
+                "start": "11:20",
+                "duration": "00:30",
+                "room": "AU",
+                "slug": "coscup-2023-72-accio",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/PRQSGE/",
+                "title": "Accio",
+                "subtitle": "",
+                "track": "Main Track",
+                "type": "Early Birds Call For Paper - Session",
+                "language": "zh-tw",
+                "abstract": "Accio 是一個 Canner 所推出的開源工具，它提供了一種類似 GraphQL 的方式來定義資料庫中的數據模型。使用 Accio，您可以定義 model、relationship、metric 並使用類似 GraphQL 的語法來描述它們之間的關係和查詢方式。Accio 會解析您的定義並生成對應的 SQL 語句，以便您在實際查詢時使用。Accio 使用 PostgreSQL 的 Wire Protocol 作為接口，目前支援 BigQuery。這意味著您可以使用常用的 PostgreSQL 驅動程式來直接對 BigQuery 進行 SQL 查詢並且使用 Accio 定義 BigQuery 數據模型。\r\n總體來說，Accio 提供了一個方便的方法來定義數據模型和查詢，使得操作數據庫變得更加容易和直觀。",
+                "description": "",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 92,
+                    "code": "3Z3DBV",
+                    "public_name": "Cooper Tseng",
+                    "biography": "目前任職於 Canner 擔任資料工程師",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 56,
+                "guid": "5a748b15-d31d-5648-8dd4-1b9e53eba233",
+                "logo": "/media/coscup-2023/submissions/MNW8TG/unikraft_mdvtZno.png",
+                "date": "2023-07-30T13:00:00+08:00",
+                "start": "13:00",
+                "duration": "00:30",
+                "room": "AU",
+                "slug": "coscup-2023-56-introducing-unikraft-an-sdk-for-fast-secure-and-highly-specialized-unikernels",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/MNW8TG/",
+                "title": "Introducing Unikraft: An SDK for fast, secure, and highly-specialized unikernels",
+                "subtitle": "",
+                "track": "Main Track",
+                "type": "Early Birds Call For Paper - Session",
+                "language": "en",
+                "abstract": "Unikernels are specialized operating system images that execute a single application. Through extreme specialization they can provide high performance, small memory footprints, fast boot times, and a reduced attack vector.\r\n\r\nThis talk will provide an overview of Unikraft (https://unikraft.org), a Linux Foundation project that provides a toolikit for creating highly specialized unikernels by combining a set of micro-libraries to tailor down the operating system strictly to the needs of the executing application.\r\n\r\nSpecifically we will look at what Unikraft is and what it can be used for; how Unikraft achieves millisecond boot times, memory footprints in the order of KiB, and guaranteed higher performance in commonly deployed applications that Linux; Unikraft's security properties, both in terms of a reduced trusted compute base (TCB), and also in terms of supported security mitigations; ways to migrate existing applications to Unikraft with minimal effort both at the source level (POSIX), the binary level (Linux ABI), or through Unikraft's support for interpreted languages like Go, Javascript, Python, Rust, and WebAssembly; and - last but not least - the amazing and evergrowing open source community of Unikraft.",
+                "description": "",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 49,
+                    "code": "MNJEYY",
+                    "public_name": "Michalis Pappas",
+                    "biography": "Michalis is an engineer at Unikraft Cloud (https://unikraft.io), and a contributor to the open source Unikraft project (https://unikraft.org). His areas of focus are operating systems, lightweight virtualization, and security. Before joining Unikraft he worked on virtualization for embedded automotive systems and Trusted Execution Environments.",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 122,
+                "guid": "49e0ed8e-8a60-5d2b-80cf-b487ebcdedd4",
+                "logo": "",
+                "date": "2023-07-30T13:40:00+08:00",
+                "start": "13:40",
+                "duration": "00:30",
+                "room": "AU",
+                "slug": "coscup-2023-122-does-your-django-application-have-proper-security-headers-",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/EQGB7L/",
+                "title": "Does your Django application have proper security headers?",
+                "subtitle": "",
+                "track": "Main Track",
+                "type": "general (30mins)",
+                "language": "en",
+                "abstract": "Django is one of the most popular python frameworks used to create web applications. While a lot of people focus on the Django ORM and the Django templating engine, the Django framework also comes with a neat set of middlewares and plugins that can be used to add security headers to your applications. Security headers are a very important layer of defense for your website to keep your users protected. In this talk, we are going to discuss what the different security headers do, and how can we add them to django.",
+                "description": "Outline of the talk:\r\n- What are security headers?\r\n- Demo with securityheaders.com\r\n- Go through all the security headers in Django Security Middleware and explain what they do\r\n- How to use django-csp to add Content Security Policies?",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 148,
+                    "code": "TKAHPN",
+                    "public_name": "Saptak S",
+                    "biography": "Saptak S. is a human rights centered web developer, focusing on usability, security, privacy and accessibility topics in web development. He works as a web development contractor. He is a contributor and maintainer of various different open source projects like The A11Y Project, OnionShare and Wagtail. He is part of the Open Source Design core team. He is also the author of the Security and Accessibility chapter of Web Almanac 2022. One can find him blogging at saptaks.blog.",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 78,
+                "guid": "7964492e-0abd-50cc-bb0b-bdab7996a2de",
+                "logo": "",
+                "date": "2023-07-30T14:20:00+08:00",
+                "start": "14:20",
+                "duration": "00:30",
+                "room": "AU",
+                "slug": "coscup-2023-78-investigating-global-open-source-trends-and-dynamics-the-latest-findings-from-linux-foundation-research",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/DAL9KC/",
+                "title": "Investigating global open source trends and dynamics: The latest findings from Linux Foundation Research",
+                "subtitle": "",
+                "track": "Main Track",
+                "type": "general (30mins)",
+                "language": "en",
+                "abstract": "Open source communities are at the heart of an explosion of technical innovation, where industry leaders, engineers, and end users are collectively creating and improving the digital infrastructure on which the global economy depends. With an extensive community of members, connections with thousands of companies, and hundreds of thousands of open source contributors, the Linux Foundation is in a unique position to research open source collaboration and provide insights into emerging technology trends, best practices, and global impact of open source projects. In this session, Cailean Osborne, a Researcher at the Linux Foundation, will provide an overview of the Linux Foundation's latest research and discuss the \"World of Open Source: 2023 Global Spotlight\" survey, an ongoing research project that aims to better understand open source trends across world regions.",
+                "description": "Open source communities are at the heart of an explosion of technical innovation, where industry leaders, engineers, and end users are collectively creating and improving the digital infrastructure on which the global economy depends.\r\n\r\nWith an extensive community of members, connections with thousands of companies, and hundreds of thousands of open source contributors, professionals, solution providers, and users, the Linux Foundation is in a unique position to investigate the growing scale of open source collaboration, and provide insights into emerging technology trends, best practices, and global impact of open source projects. By leveraging project databases and networks, and through a commitment to best practices in quantitative and qualitative methodologies, Linux Foundation Research is well-positioned to be the go-to repository for open source insights for the benefit of organizations and governments the world over.\r\n\r\nIn this session, Cailean Osborne, a Researcher at the Linux Foundation, will provide an overview of the latest research published by the Linux Foundation and zoom into a few studies, including \"Measuring the Economic Value of Open Source\" and \"Enabling Global Collaboration: How Open Source Leaders Are Confronting the Challenges of Fragmentation,\" amongst others. Cailean will conclude by discussing the \"World of Open Source: 2023 Global Spotlight\" survey, ongoing research that aims to better understand open source dynamics and trends across world regions.",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 98,
+                    "code": "8PWS3Q",
+                    "public_name": "Cailean Osborne",
+                    "biography": "Cailean Osborne is a PhD Candidate in Social Data Science at the University of Oxford and a Researcher at the Linux Foundation. His research interests concern the political economy of open source software and the digital commons at large. At the Linux Foundation, Cailean supports LF Research with research projects on open source software trends. Previously, Cailean was the International Policy Lead\r\nat the UK Government’s Centre for Data Ethics & Innovation.",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              },
+              {
+                "id": 62,
+                "guid": "bc42a056-ec19-5bfd-9c6c-01e5c636039b",
+                "logo": "/media/coscup-2023/submissions/8T37NM/vlc512x512_lnsy2v9.png",
+                "date": "2023-07-30T15:00:00+08:00",
+                "start": "15:00",
+                "duration": "00:30",
+                "room": "AU",
+                "slug": "coscup-2023-62-vlc-4-0-and-beyond",
+                "url": "https://pretalx.coscup.org/coscup-2023/talk/8T37NM/",
+                "title": "VLC 4.0 and Beyond",
+                "subtitle": "",
+                "track": "Main Track",
+                "type": "Early Birds Call For Paper - Session",
+                "language": "en",
+                "abstract": "VLC Media Player 4.0 features round-up",
+                "description": "VLC 4.0 and Beyond: Advancements in Open-Source Media Player Technology\r\n\r\nThe long awaited 4.0 version of VLC Media Player brings significant enhancements and changes which are still delaying its release. Lots of internal rework have been made and a new UX interface will offer an intuitive and modern design.\r\n\r\nWe will also review some new player API and platforms, offering a powerful, flexible, and open-source media player, empowering developers to create new and innovative products and services that can better serve the needs of users.\r\n\r\nAdditionally, future support for WebAssembly will allow easy embedding into web-based applications, providing a seamless media playback experience across different browsers and operating systems.",
+                "recording_license": "",
+                "do_not_record": false,
+                "persons": [
+                  {
+                    "id": 82,
+                    "code": "XWW9AQ",
+                    "public_name": "François Cartegnie",
+                    "biography": "VLC Media Player developers team and VideoLAN member since 2009. Working on demuxers and codecs (most media formats that goes in or out) side of VLC media player.",
+                    "answers": []
+                  }
+                ],
+                "links": [],
+                "attachments": [],
+                "answers": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

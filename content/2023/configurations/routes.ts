@@ -25,6 +25,21 @@ const routes = [
     path: '/about',
     name: 'Team',
   },
+  {
+    path: '/register',
+    name: 'Register',
+    disabled: true,
+  },
+  {
+    path: '/code-of-conduct',
+    name: 'Code of Conduct',
+    disabled: true,
+  },
+  {
+    path: '/health-safety-guidelines',
+    name: 'Health & Safety Guidelines',
+    disabled: true,
+  },
 ];
 
 export default routes;

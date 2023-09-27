@@ -2,7 +2,7 @@
 
 import dynamic from 'next/dynamic';
 import { useContext } from 'react';
-import { UNKNOWN_LOCALE } from '@/configurations/constants';
+import { DEFAULT_LOCALE, UNKNOWN_LOCALE } from '@/configurations/constants';
 import { LocaleContext } from '@/contexts/locale';
 
 type ContentProps = {
@@ -17,10 +17,14 @@ const Content = ({ name }: ContentProps) => {
   }
 
   const TranslatedContent: React.ElementType = dynamic(
-    () =>
-      import(`../contents/${name}_${locale}.mdx`).catch(
-        () => import(`../contents/${name}.mdx`),
-      ),
+    () => {
+      const defaultFilename = `${name}.mdx`;
+      const filename =
+        locale === DEFAULT_LOCALE ? defaultFilename : `${name}_${locale}.mdx`;
+      return import(`../contents/${filename}`).catch(
+        () => import(`../contents/${defaultFilename}`),
+      );
+    },
     {
       loading: () => <div>Loading...</div>,
     },

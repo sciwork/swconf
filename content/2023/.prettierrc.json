@@ -11,8 +11,12 @@
     "^@/components/(.*)$",
     "^@/contents/(.*)$",
     "^@/contexts/(.*)$",
+    "^@/models/(.*)$",
+    "^@/utils/(.*)$",
     "^@/assets/(.*)$",
     "^[./]"
   ],
-  "importOrderSortSpecifiers": true
+  "importOrderSortSpecifiers": true,
+  "plugins": ["prettier-plugin-tailwindcss", "@trivago/prettier-plugin-sort-imports"],
+  "pluginSearchDirs": false
 }
