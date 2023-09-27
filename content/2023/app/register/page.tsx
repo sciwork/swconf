@@ -3,7 +3,7 @@ import Article from '@/components/Article';
 import ToBeAnnounced from '@/components/ToBeAnnounced';
 
 export const metadata: Metadata = {
-  title: 'Venue',
+  title: 'Register',
 };
 
 const Page = () => {
