@@ -1,5 +1,3 @@
-# fix preview faliure
-
 [build]
   base = "content/2023/"
   command = "env SITEURL=$DEPLOY_PRIME_URL make html"
@@ -7,3 +5,8 @@
 
 [context.production]
   command = "env SITEURL=$URL make html"
+
+[[redirects]]
+  from = "/register"
+  to = "https://sciwork.kktix.cc/events/sciworkconf-202312-hsinchu"
+  force = true
