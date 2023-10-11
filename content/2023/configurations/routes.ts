@@ -33,7 +33,6 @@ const routes = [
   {
     path: '/code-of-conduct',
     name: 'Code of Conduct',
-    disabled: true,
   },
   {
     path: '/health-safety-guidelines',
