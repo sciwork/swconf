@@ -14,8 +14,8 @@ const showBannerPageConfigs: ShowBannerPageConfigType[] = [
       subTitle:
         'December 9th to 10th\nNational Yang Ming Chiao Tung University',
       children: (
-        <Button to="/cfp" variant="action">
-          Call for Proposals
+        <Button to="https://sciwork.kktix.cc/events/sciworkconf-202312-hsinchu" target="_blank" variant="action">
+          Register
         </Button>
       ),
     },
@@ -25,7 +25,7 @@ const showBannerPageConfigs: ShowBannerPageConfigType[] = [
     props: {
       title: 'Call for Proposals',
       children: (
-        <Button to="https://pretalx.sciwork.dev/sw23/submit/" variant="action">
+        <Button to="https://pretalx.sciwork.dev/sw23/submit/" target="_blank" variant="action">
           Submit a Proposal
         </Button>
       ),
