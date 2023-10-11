@@ -34,6 +34,11 @@ const routes = [
     name: 'Health & Safety Guidelines',
     disabled: true,
   },
+  {
+    path: '/financial-aid',
+    name: 'Financial Aid',
+    disabled: true,
+  }
 ];
 
 export default routes;
