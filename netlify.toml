@@ -5,3 +5,8 @@
 
 [context.production]
   command = "env SITEURL=$URL make html"
+
+[[redirects]]
+  from = "/register"
+  to = "https://sciwork.kktix.cc/events/sciworkconf-202312-hsinchu"
+  force = true
