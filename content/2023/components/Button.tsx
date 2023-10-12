@@ -3,6 +3,7 @@ import NextLink, { LinkProps as InternalLinkProps } from 'next/link';
 import { HTMLProps, MouseEvent } from 'react';
 
 type Props = {
+  className?: string;
   variant?: 'default' | 'action';
   children: React.ReactNode;
   to?: string;
@@ -10,6 +11,7 @@ type Props = {
 };
 
 const Button = ({
+  className,
   variant = 'default',
   children,
   to,
@@ -36,6 +38,7 @@ const Button = ({
     <Component
       className={clsx(
         'tw-px-4 tw-pb-2 tw-pt-3 tw-font-yk tw-text-lg tw-font-normal tw-no-underline tw-outline-none focus:tw-ring-2 tablet:tw-text-lg',
+        className,
         {
           'tw-rounded-md tw-text-neutral-950 hover:tw-ring-1 hover:tw-ring-neutral-400':
             variant === 'default',
