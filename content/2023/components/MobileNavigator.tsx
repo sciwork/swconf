@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { REGISTER_URL } from '@/configurations/constants';
 import routes from '@/configurations/routes';
 import Button from '@/components/Button';
 import Drawer from '@/components/Drawer';
@@ -35,6 +36,11 @@ const MobileNavigator = () => {
                 {route.name}
               </DrawerLink>
             ))}
+        </div>
+        <div className="tw-px-7 tw-py-6">
+          <Button variant="action" to={REGISTER_URL} target="_blank">
+            Register
+          </Button>
         </div>
       </Drawer>
     </>

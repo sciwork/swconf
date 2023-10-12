@@ -1,5 +1,6 @@
 import { BannerProps } from '@/components/Banner';
 import Button from '@/components/Button';
+import { REGISTER_URL } from './constants';
 
 type ShowBannerPageConfigType = {
   path: string;
@@ -14,7 +15,7 @@ const showBannerPageConfigs: ShowBannerPageConfigType[] = [
       subTitle:
         'December 9th to 10th\nNational Yang Ming Chiao Tung University',
       children: (
-        <Button to="https://sciwork.kktix.cc/events/sciworkconf-202312-hsinchu" target="_blank" variant="action">
+        <Button to={REGISTER_URL} target="_blank" variant="action">
           Register
         </Button>
       ),
@@ -25,7 +26,11 @@ const showBannerPageConfigs: ShowBannerPageConfigType[] = [
     props: {
       title: 'Call for Proposals',
       children: (
-        <Button to="https://pretalx.sciwork.dev/sw23/submit/" target="_blank" variant="action">
+        <Button
+          to="https://pretalx.sciwork.dev/sw23/submit/"
+          target="_blank"
+          variant="action"
+        >
           Submit a Proposal
         </Button>
       ),
