@@ -4,6 +4,7 @@ import clsx from 'clsx';
 import { usePathname } from 'next/navigation';
 import { useEffect, useLayoutEffect, useState } from 'react';
 import { isPageHasBanner } from '@/configurations/banners';
+import { REGISTER_URL } from '@/configurations/constants';
 import routes from '@/configurations/routes';
 import Button from '@/components/Button';
 import Logo from '@/components/Logo';
@@ -75,10 +76,10 @@ const Header = ({ className }: Props) => {
             ))}
         </div>
         <Button
+          className="tw-hidden desktop:tw-block"
           variant="action"
-          to="/register"
+          to={REGISTER_URL}
           target="_blank"
-          className="tw-hidden"
         >
           Register
         </Button>
