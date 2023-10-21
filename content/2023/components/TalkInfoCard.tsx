@@ -30,7 +30,7 @@ const TalkInfoCard = ({ className, talk, ...props }: Props) => {
         dangerouslySetInnerHTML={{ __html: talk.abstract }}
       />
       <div className="tw-mb-2 tw-mt-6">
-        <Button variant="action" to={`/program/${talk.slug}`}>
+        <Button variant="action" to={talk.url} target="_blank">
           View Details
         </Button>
       </div>
