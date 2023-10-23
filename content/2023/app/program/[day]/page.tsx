@@ -1,24 +1,37 @@
-import { Metadata } from 'next';
+'use client';
+
+import { useEffect, useState } from 'react';
 import Article from '@/components/Article';
 import ScheduleComponent from '@/components/Schedule';
 import ToBeAnnounced from '@/components/ToBeAnnounced';
 import { DayType } from '@/models/Schedule';
+import { getSchedule } from '@/utils/apis';
 import dayjs from '@/utils/day';
 
-export const metadata: Metadata = {
-  title: 'Programs',
-};
-
-export function generateStaticParams() {
-  // TODO: Fetch schedule from pretalx API
-  const days: DayType[] = [];
+export async function generateStaticParams() {
+  const schedule = await getSchedule();
+  const days = schedule?.conference?.days ?? [];
   return days.map((day) => ({ day: day.date.format('YYYY-MM-DD') }));
 }
 
 const Page = ({ params }: { params: { day: string } }) => {
-  // TODO: Fetch schedule from pretalx API
-  const days: DayType[] = [];
   const currentDay = dayjs(params.day);
+  const [days, setDays] = useState<DayType[]>([]);
+  const [isLoading, setLoading] = useState(true);
+
+  useEffect(() => {
+    async function fetchSchedule() {
+      const schedule = await getSchedule();
+      setDays(schedule?.conference?.days ?? []);
+      setLoading(false);
+    }
+
+    fetchSchedule();
+  }, []);
+
+  if (isLoading) {
+    return <Article>Loading...</Article>;
+  }
 
   return (
     <Article>
