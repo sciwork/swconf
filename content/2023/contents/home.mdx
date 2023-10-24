@@ -1,5 +1,9 @@
 import Image from 'next/image';
 import squareImg from '@/assets/sw23_square.jpg';
+import sponsor_xvideo from '@/assets/xvideo.png';
+import partner_numfocus from '@/assets/NumFocus.png';
+import partner_pydata from '@/assets/PyData.png';
+import partner_humbledata from '@/assets/humble-data.png';
 
 # science, code, and open source
 
@@ -50,4 +54,34 @@ together for good and open computational sciences.
     <img src="https://live.staticflickr.com/65535/52838761559_16ef82dba5_k.jpg" />
     <img src="https://live.staticflickr.com/65535/52919230990_ec629d4edb_k.jpg" />
   </div>
+</div>
+
+# Sponsorship
+
+<div className="tw-flex tw-flex-col tw-items-center tablet:tw-flex-row tablet:tw-justify-center tablet:tw-h-60">
+  <Image
+    className="tw-w-48 tablet:tw-w-2/5 tablet:tw-mx-10 tw-object-contain"
+    src={sponsor_xvideo}
+    alt="sponsor_xvideo"
+  />
+</div>
+
+# Partnership
+
+<div className="tw-flex tw-flex-col tw-items-center tablet:tw-flex-row tablet:tw-justify-center tablet:tw-h-48">
+  <Image
+    className="tw-w-48 tablet:tw-w-1/3 tablet:tw-mx-10 tw-object-contain"
+    src={partner_numfocus}
+    alt="partner_numfocus"
+  />
+  <Image
+    className=" tw-w-48 tablet:tw-w-1/3 tablet:tw-mx-10 tw-object-contain"
+    src={partner_pydata}
+    alt="partner_pydata"
+  />
+  <Image
+    className="tw-w-48 tablet:tw-w-1/3 tablet:tw-mx-10 tw-object-contain"
+    src={partner_humbledata}
+    alt="partner_humbledata"
+  />
 </div>
