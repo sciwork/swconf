@@ -10,7 +10,6 @@ const routes = [
   {
     path: '/program',
     name: 'Program',
-    disabled: true,
   },
   {
     path: '/sponsors',
@@ -37,7 +36,6 @@ const routes = [
   {
     path: '/financial-aid',
     name: 'Financial Aid',
-    disabled: true,
   }
 ];
 
