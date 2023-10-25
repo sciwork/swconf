@@ -1,28 +1,29 @@
-import { Metadata } from 'next';
+'use client';
+
+import { useEffect, useState } from 'react';
 import Article from '@/components/Article';
 import ScheduleComponent from '@/components/Schedule';
 import ToBeAnnounced from '@/components/ToBeAnnounced';
-import RawSchedule from '@/models/RawSchedule';
-import Schedule, { DayType } from '@/models/Schedule';
-
-export const metadata: Metadata = {
-  title: 'Programs',
-};
-
-const getDays = (json: any): DayType[] => {
-  if (!json) {
-    return [];
-  }
-
-  const rawSchedule = RawSchedule.fromJson(json);
-  const schedule = Schedule.fromRaw(rawSchedule);
-  return schedule.conference.days;
-};
+import { DayType } from '@/models/Schedule';
+import { getSchedule } from '@/utils/apis';
 
 const Page = () => {
-  // TODO: Fetch schedule from pretalx API
-  const scheduleJson = null;
-  const days = getDays(scheduleJson);
+  const [days, setDays] = useState<DayType[]>([]);
+  const [isLoading, setLoading] = useState(true);
+
+  useEffect(() => {
+    async function fetchSchedule() {
+      const schedule = await getSchedule();
+      setDays(schedule?.conference?.days ?? []);
+      setLoading(false);
+    }
+
+    fetchSchedule();
+  }, []);
+
+  if (isLoading) {
+    return <Article>Loading...</Article>;
+  }
 
   return (
     <Article>
