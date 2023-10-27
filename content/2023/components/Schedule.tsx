@@ -7,7 +7,7 @@ import { getAggregatedTalksByTimeSlot } from '@/utils/schedule';
 
 type Props = {
   days: DayType[];
-  currentDay: dayjs.Dayjs;
+  currentDay: dayjs.Dayjs | null;
 };
 
 const Schedule = ({ days, currentDay }: Props) => {
@@ -21,7 +21,7 @@ const Schedule = ({ days, currentDay }: Props) => {
         {days.map((day) => (
           <DayLink
             key={day.date.format('MM-DD')}
-            to={`/program/${day.date.format('YYYY-MM-DD')}`}
+            to={`/program?day=${day.date.format('YYYY-MM-DD')}`}
             active={day.date.isSame(currentDay, 'day')}
           >
             {day.date.format('ddd, MM/DD')}
