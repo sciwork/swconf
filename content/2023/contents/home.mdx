@@ -1,9 +1,12 @@
 import Image from 'next/image';
-import partner_numfocus from '@/assets/NumFocus.png';
-import partner_pydata from '@/assets/PyData.png';
-import partner_humbledata from '@/assets/humble-data.png';
+import numFocusImg from '@/assets/NumFocus.png';
+import ocfImg from '@/assets/OCF.png';
+import pydataImg from '@/assets/PyData.png';
+import humbleDataImg from '@/assets/humble-data.png';
+import nctuImg from '@/assets/nctucs.png';
+import psfImg from '@/assets/psf.png';
 import squareImg from '@/assets/sw23_square.jpg';
-import sponsor_xvideo from '@/assets/xvideo.png';
+import xvideoImg from '@/assets/xvideo.png';
 
 # science, code, and open source
 
@@ -60,30 +63,50 @@ together for good and open computational sciences.
 
 # Sponsorship
 
-<div className="tw-mb-14 tw-flex tw-flex-col tw-items-center tablet:tw-mb-20 tablet:tw-h-60 tablet:tw-flex-row tablet:tw-items-start tablet:tw-justify-center">
+<div className="tablet:tw-my-15 tw-mb-14 tw-flex tw-flex-col tw-items-center tablet:tw-flex-row tablet:tw-justify-center">
   <Image
     className="tw-w-48 tw-object-contain tablet:tw-mx-10"
-    src={sponsor_xvideo}
-    alt="sponsor_xvideo"
+    src={xvideoImg}
+    alt="sponsor-xvideo"
+  />
+  <Image
+    className="tw-w-60 tw-object-contain tablet:tw-mx-10"
+    src={psfImg}
+    alt="sponsor-psf"
   />
 </div>
 
 # Partnership
 
-<div className="tw-flex tw-flex-col tw-items-center tablet:tw-h-48 tablet:tw-flex-row tablet:tw-justify-center">
+<div className="tablet:tw-my-15 tw-mb-14 tw-flex tw-flex-col tw-items-center tablet:tw-flex-row tablet:tw-justify-center">
   <Image
-    className="tw-w-48 tw-object-contain tablet:tw-mx-10 tablet:tw-w-1/4"
-    src={partner_numfocus}
-    alt="partner_numfocus"
+    className="tw-w-48 tw-object-contain tablet:tw-mx-10"
+    src={numFocusImg}
+    alt="partner-numfocus"
   />
   <Image
-    className=" tw-w-48 tw-object-contain tablet:tw-mx-10 tablet:tw-w-1/4"
-    src={partner_pydata}
-    alt="partner_pydata"
+    className="tw-w-48 tw-object-contain tablet:tw-mx-10"
+    src={pydataImg}
+    alt="partner-pydata"
   />
   <Image
-    className="tw-w-48 tw-object-contain tablet:tw-mx-10 tablet:tw-w-1/4"
-    src={partner_humbledata}
-    alt="partner_humbledata"
+    className="tw-w-48 tw-object-contain tablet:tw-mx-10"
+    src={humbleDataImg}
+    alt="partner-humbledata"
+  />
+</div>
+
+# Co-organizer
+
+<div className="tablet:tw-my-15 tw-flex tw-flex-col tw-items-center tablet:tw-flex-row tablet:tw-justify-center">
+  <Image
+    className="tw-w-48 tw-object-contain tablet:tw-mx-10"
+    src={nctuImg}
+    alt="coorganizer-nctu"
+  />
+  <Image
+    className="tw-w-60 tw-object-contain tablet:tw-mx-10"
+    src={ocfImg}
+    alt="coorganizer-ocf"
   />
 </div>
