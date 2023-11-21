@@ -1,9 +1,19 @@
 import Image from 'next/image';
 import venueImg from '@/assets/venue.png';
+import confImg1 from '@/assets/conference_1.png';
+import confImg2 from '@/assets/conference_2.png';
 
 # Venue
 
-[MIRC](https://eic2.web.nycu.edu.tw/) of National Yang Ming Chiao Tung University, Hsinchu, Taiwan
+<div className="tablet:tw-mb-5">
+    <div div className="tablet:tw-flex tablet:tw-items-center tablet:tw-justify-center">
+    [MIRC](https://eic2.web.nycu.edu.tw/) of National Yang Ming Chiao Tung University, Hsinchu, Taiwan  
+    </div>
+
+    <div div className="tablet:tw-flex tablet:tw-items-center tablet:tw-justify-center">
+    No. 1001, Ta Hsueh Road, Hsinchu, Taiwan
+    </div>
+</div>
 
 # Transportation
 
@@ -45,7 +55,21 @@ Take the intercity bus to Hsinchu. Take the first stop to "National Yang Ming Ch
 
 # Conference Rooms
 
-WIP
+<div div className="tablet:tw-flex tablet:tw-items-center tablet:tw-justify-center">
+  <Image
+    className="tablet:tw-mr-5 tablet:tw-w-4/5 tablet:tw-mt-14"
+    src={confImg1}
+    alt="conference_1"
+  />
+</div>
+
+<div div className="tablet:tw-flex tablet:tw-items-center tablet:tw-justify-center">
+  <Image
+    className="tablet:tw-mr-5 tablet:tw-w-4/5 tablet:tw-mt-14"
+    src={confImg2}
+    alt="conference_2"
+  />
+</div>
 
 
 

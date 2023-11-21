@@ -1,9 +1,19 @@
 import Image from 'next/image';
 import venueImg from '@/assets/venue.png';
+import confImg1 from '@/assets/conference_1.png';
+import confImg2 from '@/assets/conference_2.png';
 
 # Venue
 
-國立陽明交通大學電子資訊大樓國際會議廳
+<div className="tablet:tw-mb-5">
+    <div div className="tablet:tw-flex tablet:tw-items-center tablet:tw-justify-center">
+國立陽明交通大學電子資訊大樓國際會議廳  
+    </div>
+
+    <div div className="tablet:tw-flex tablet:tw-items-center tablet:tw-justify-center">
+新竹市大學路1001號
+    </div>
+</div>
 
 # Transportation
 
@@ -44,7 +54,21 @@ import venueImg from '@/assets/venue.png';
 
 # Conference Rooms
 
-WIP
+<div div className="tablet:tw-flex tablet:tw-items-center tablet:tw-justify-center">
+  <Image
+    className="tablet:tw-mr-5 tablet:tw-w-4/5 tablet:tw-mt-14"
+    src={confImg1}
+    alt="conference_1"
+  />
+</div>
+
+<div div className="tablet:tw-flex tablet:tw-items-center tablet:tw-justify-center">
+  <Image
+    className="tablet:tw-mr-5 tablet:tw-w-4/5 tablet:tw-mt-14"
+    src={confImg2}
+    alt="conference_2"
+  />
+</div>
 
 
 
