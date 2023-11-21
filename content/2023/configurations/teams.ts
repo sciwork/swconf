@@ -40,10 +40,10 @@ const teams = [
   {
     title: 'Program',
     members: [
-      { name: 'Shuhsi', email: 'suci@sciwork.dev' },
+      { name: 'Shu-Hsi Lin', email: 'suci@sciwork.dev' },
       { name: 'Yu-Hsun Lee' },
       { name: 'Zong-han Xi' },
-      { name: 'Huei-Yuan Su', image: marsImg },
+      { name: 'Huei-Yuan Su (Mars)', image: marsImg },
       {
         name: 'Li-An Chen',
         image: liAnChenImg,
@@ -54,7 +54,7 @@ const teams = [
     title: 'Reviewer',
     members: [
       { name: 'Yung-Yu Chen', email: 'yyc@sciwork.dev', image: yycImg },
-      { name: 'Shuhsi', email: 'suci@sciwork.dev' },
+      { name: 'Shu-Hsi Lin', email: 'suci@sciwork.dev' },
       { name: 'Yu-Hsun Lee' },
       { name: 'Zong-Han Xi' },
       { name: 'Huei-Yuan Su (Mars)', image: marsImg },
@@ -65,7 +65,7 @@ const teams = [
       { name: 'Liang-Bo Wang', image: liangBoWangImg },
       { name: 'Kunxian Huang' },
       {
-        name: 'Wen-Chung (Tim) Hsu',
+        name: 'Wen-Chung Hsu (Tim)',
         image: timHsuImg,
       },
       { name: 'Chun-Yu Tseng (Joe)', image: ChunYuTsengImg },
@@ -75,14 +75,14 @@ const teams = [
       },
       { name: 'Alyssa Chen' },
       {
-        name: 'Chung-Pu (Enzo) Chang',
+        name: 'Chung-Pu Chang (Enzo)',
         image: enzoImg,
       },
       {
         name: 'Mansun Kuo',
         image: manusnKuoImg,
       },
-      { name: 'CL (Chia-Liang) Kao' },
+      { name: 'Chia-Liang Kao' },
       { name: 'Edward Hong' },
       { name: 'Carter Lin' },
       { name: 'Rendy Kuo' },
