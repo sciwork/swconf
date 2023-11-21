@@ -1,5 +1,6 @@
 import clsx from 'clsx';
 import Image, { StaticImageData } from 'next/image';
+import NextLink from 'next/link';
 import defaultAvatarImg from '@/assets/default-avatar.svg';
 
 type Props = {
@@ -25,8 +26,16 @@ const Avatar = ({ image, name, email }: Props) => {
       <div className="tw-text-4xl tw-font-yk tw-mb-3 tw-text-gray-950">
         {name}
       </div>
-      <div className="tw-text-xl tw-font-yk tw-text-gray-9 tw-min-h-[1.75rem] tw-w-full tw-text-center">
-        {email}
+      <div className="tw-min-h-[1.75rem] tw-w-full tw-text-center">
+        {email && (
+          <NextLink
+            href={`mailto:${email}`}
+            target="_blank"
+            className="tw-no-underline tw-text-xl tw-font-yk tw-font-normal tw-text-gray-900 hover:tw-text-sky-600"
+          >
+            {email}
+          </NextLink>
+        )}
       </div>
     </div>
   );
