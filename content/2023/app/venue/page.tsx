@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Article from '@/components/Article';
-import ToBeAnnounced from '@/components/ToBeAnnounced';
+import Content from '@/components/Content';
 
 export const metadata: Metadata = {
   title: 'Venue',
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 const Page = () => {
   return (
     <Article>
-      <ToBeAnnounced />
+      <Content name="venue" />
     </Article>
   );
 };

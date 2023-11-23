@@ -18,7 +18,6 @@ const routes = [
   {
     path: '/venue',
     name: 'Venue',
-    disabled: true,
   },
   {
     path: '/about',
