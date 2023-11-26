@@ -40,7 +40,7 @@ const teams = [
   {
     title: 'Program',
     members: [
-      { name: 'Shu-Hsi Lin', email: 'suci@sciwork.dev' },
+      { name: 'Shu-Hsi Lin' },
       { name: 'Yu-Hsun Lee' },
       { name: 'Zong-han Xi' },
       { name: 'Huei-Yuan Su (Mars)', image: marsImg },
@@ -53,8 +53,8 @@ const teams = [
   {
     title: 'Reviewer',
     members: [
-      { name: 'Yung-Yu Chen', email: 'yyc@sciwork.dev', image: yycImg },
-      { name: 'Shu-Hsi Lin', email: 'suci@sciwork.dev' },
+      { name: 'Yung-Yu Chen', image: yycImg },
+      { name: 'Shu-Hsi Lin' },
       { name: 'Yu-Hsun Lee' },
       { name: 'Zong-Han Xi' },
       { name: 'Huei-Yuan Su (Mars)', image: marsImg },
@@ -92,7 +92,7 @@ const teams = [
   {
     title: 'Web & Design',
     members: [
-      { name: 'Chaster', email: 'chester@sciwork.dev' },
+      { name: 'Chaster' },
       { name: 'Wuxian' },
       { name: 'Lili', image: liliImg },
       { name: 'Steve' },
@@ -103,8 +103,8 @@ const teams = [
   {
     title: 'Finance & Venue',
     members: [
-      { name: 'Robert', email: 'rlin@sciwork.dev' },
-      { name: 'Jenny', email: 'jennyyen@sciwork.dev' },
+      { name: 'Robert' },
+      { name: 'Jenny' },
       { name: 'Shanyen' },
       { name: 'Vera' },
     ],
