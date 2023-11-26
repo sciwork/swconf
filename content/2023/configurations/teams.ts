@@ -1,4 +1,5 @@
 import { StaticImageData } from 'next/image';
+import chesterImg from '@/assets/sw23-staff-avatar/chester.png';
 import ChunYuTsengImg from '@/assets/sw23-staff-avatar/chun-yu-tseng.jpg';
 import enImg from '@/assets/sw23-staff-avatar/en.jpeg';
 import enzoImg from '@/assets/sw23-staff-avatar/enzo.jpeg';
@@ -8,7 +9,9 @@ import liliImg from '@/assets/sw23-staff-avatar/lili.jpg';
 import manusnKuoImg from '@/assets/sw23-staff-avatar/manusn-kuo.jpg';
 import marsImg from '@/assets/sw23-staff-avatar/mars.jpg';
 import peterWolfImg from '@/assets/sw23-staff-avatar/peter-wolf.png';
+import shuhsiLinImg from '@/assets/sw23-staff-avatar/shuhsi-lin.jpg';
 import timHsuImg from '@/assets/sw23-staff-avatar/tim-hsu.jpeg';
+import wuxianImg from '@/assets/sw23-staff-avatar/wuxian.png';
 import yycImg from '@/assets/sw23-staff-avatar/yyc.jpeg';
 
 type TeamType = {
@@ -34,6 +37,7 @@ const teams: TeamType[] = [
       {
         name: 'Shu-Hsi Lin',
         email: 'suci@sciwork.dev',
+        image: shuhsiLinImg,
       },
       {
         name: 'Robert Lin',
@@ -42,6 +46,7 @@ const teams: TeamType[] = [
       {
         name: 'Chester Cheng',
         email: 'chester@sciwork.dev',
+        image: chesterImg,
       },
       {
         name: 'Jenny Yen',
@@ -52,7 +57,7 @@ const teams: TeamType[] = [
   {
     title: 'Program',
     members: [
-      { name: 'Shu-Hsi Lin' },
+      { name: 'Shu-Hsi Lin', image: shuhsiLinImg },
       { name: 'Yu-Hsun Lee' },
       { name: 'Zong-han Xi' },
       { name: 'Huei-Yuan Su (Mars)', image: marsImg },
@@ -66,7 +71,7 @@ const teams: TeamType[] = [
     title: 'Reviewer',
     members: [
       { name: 'Yung-Yu Chen', image: yycImg },
-      { name: 'Shu-Hsi Lin' },
+      { name: 'Shu-Hsi Lin', image: shuhsiLinImg },
       { name: 'Yu-Hsun Lee' },
       { name: 'Zong-Han Xi' },
       { name: 'Huei-Yuan Su (Mars)', image: marsImg },
@@ -104,8 +109,8 @@ const teams: TeamType[] = [
   {
     title: 'Web & Design',
     members: [
-      { name: 'Chaster' },
-      { name: 'Wuxian' },
+      { name: 'Chaster Cheng', image: chesterImg },
+      { name: 'Wuxian', image: wuxianImg },
       { name: 'Lili', image: liliImg },
       { name: 'Steve' },
       { name: 'tN' },
