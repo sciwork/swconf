@@ -1,3 +1,4 @@
+import { StaticImageData } from 'next/image';
 import ChunYuTsengImg from '@/assets/sw23-staff-avatar/chun-yu-tseng.jpg';
 import enImg from '@/assets/sw23-staff-avatar/en.jpeg';
 import enzoImg from '@/assets/sw23-staff-avatar/enzo.jpeg';
@@ -10,7 +11,18 @@ import peterWolfImg from '@/assets/sw23-staff-avatar/peter-wolf.png';
 import timHsuImg from '@/assets/sw23-staff-avatar/tim-hsu.jpeg';
 import yycImg from '@/assets/sw23-staff-avatar/yyc.jpeg';
 
-const teams = [
+type TeamType = {
+  title: string;
+  members: MemberProps[];
+};
+
+type MemberProps = {
+  name: string;
+  email?: string;
+  image?: StaticImageData;
+};
+
+const teams: TeamType[] = [
   {
     title: 'Core Team',
     members: [
