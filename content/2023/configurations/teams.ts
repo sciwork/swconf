@@ -13,6 +13,12 @@ import shuhsiLinImg from '@/assets/sw23-staff-avatar/shuhsi-lin.jpg';
 import timHsuImg from '@/assets/sw23-staff-avatar/tim-hsu.jpeg';
 import wuxianImg from '@/assets/sw23-staff-avatar/wuxian.png';
 import yycImg from '@/assets/sw23-staff-avatar/yyc.jpeg';
+import jennyImg from '@/assets/sw23-staff-avatar/jenny.jpeg';
+import yuHsunLeeImg from '@/assets/sw23-staff-avatar/yu-hsun-lee.jpeg';
+import zonghanxieImg from '@/assets/sw23-staff-avatar/zonghanxie.jpeg';
+import yukoImg from '@/assets/sw23-staff-avatar/yuko.jpeg';
+import mingJieImg from '@/assets/sw23-staff-avatar/ming-jie.jpg';
+import steveImg from '@/assets/sw23-staff-avatar/steve.jpg';
 
 type TeamType = {
   title: string;
@@ -51,6 +57,7 @@ const teams: TeamType[] = [
       {
         name: 'Jenny Yen',
         email: 'jennyyen@sciwork.dev',
+        image: jennyImg,
       },
     ],
   },
@@ -58,8 +65,8 @@ const teams: TeamType[] = [
     title: 'Program',
     members: [
       { name: 'Shu-Hsi Lin', image: shuhsiLinImg },
-      { name: 'Yu-Hsun Lee' },
-      { name: 'Zong-han Xi' },
+      { name: 'Yu-Hsun Lee', image: yuHsunLeeImg },
+      { name: 'Zong-han Xie', image: zonghanxieImg },
       { name: 'Huei-Yuan Su (Mars)', image: marsImg },
       {
         name: 'Li-An Chen',
@@ -72,8 +79,8 @@ const teams: TeamType[] = [
     members: [
       { name: 'Yung-Yu Chen', image: yycImg },
       { name: 'Shu-Hsi Lin', image: shuhsiLinImg },
-      { name: 'Yu-Hsun Lee' },
-      { name: 'Zong-Han Xi' },
+      { name: 'Yu-Hsun Lee', image: yuHsunLeeImg },
+      { name: 'Zong-Han Xie', image: zonghanxieImg },
       { name: 'Huei-Yuan Su (Mars)', image: marsImg },
       {
         name: 'Li-An Chen',
@@ -112,7 +119,7 @@ const teams: TeamType[] = [
       { name: 'Chaster Cheng', image: chesterImg },
       { name: 'Wuxian', image: wuxianImg },
       { name: 'Lili', image: liliImg },
-      { name: 'Steve' },
+      { name: 'Steve', image: steveImg },
       { name: 'tN' },
       { name: 'EN', image: enImg },
     ],
@@ -121,14 +128,23 @@ const teams: TeamType[] = [
     title: 'Finance & Venue',
     members: [
       { name: 'Robert' },
-      { name: 'Jenny' },
+      { name: 'Jenny', image: jennyImg },
       { name: 'Shanyen' },
       { name: 'Vera' },
     ],
   },
   {
     title: 'Registration',
-    members: [{ name: 'Ming-Jie' }],
+    members: [{ name: 'Ming-Jie', image: mingJieImg }],
+  },
+  {
+    title: 'Venue',
+    members: [
+      { name: 'Terry' },
+      { name: 'Yu-Fang(Yuko) Hu', image: yukoImg },
+      { name: 'Rex' },
+      { name: 'Ting-Yu' },
+    ],
   },
 ];
 
