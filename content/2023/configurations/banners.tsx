@@ -1,6 +1,5 @@
 import { BannerProps } from '@/components/Banner';
 import Button from '@/components/Button';
-import { REGISTER_URL } from './constants';
 
 type ShowBannerPageConfigType = {
   path: string;
@@ -14,11 +13,6 @@ const showBannerPageConfigs: ShowBannerPageConfigType[] = [
       title: 'sciwork conference',
       subTitle:
         'December 9th to 10th\nNational Yang Ming Chiao Tung University',
-      children: (
-        <Button to={REGISTER_URL} target="_blank" variant="action">
-          Register
-        </Button>
-      ),
     },
   },
   {
