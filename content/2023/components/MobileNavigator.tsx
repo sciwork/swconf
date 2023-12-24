@@ -37,7 +37,7 @@ const MobileNavigator = () => {
               </DrawerLink>
             ))}
         </div>
-        <div className="tw-px-7 tw-py-6">
+        <div className="tw-px-7 tw-py-6 tw-hidden">
           <Button variant="action" to={REGISTER_URL} target="_blank">
             Register
           </Button>

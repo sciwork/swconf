@@ -6,6 +6,7 @@ const routes = [
   {
     path: '/cfp',
     name: 'CFP',
+    disabled: true,
   },
   {
     path: '/program',
@@ -35,7 +36,7 @@ const routes = [
   {
     path: '/financial-aid',
     name: 'Financial Aid',
-  }
+  },
 ];
 
 export default routes;
