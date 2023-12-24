@@ -97,13 +97,16 @@ const injectAlbums = (width: number, height: number) => {
 };
 
 const FlickrAlbums = () => {
-  const [device, setDevice] = useState(getDevice());
+  const [device, setDevice] = useState('mobile');
   const [width, setWidth] = useState(getWidthOfEmbed(device));
   const [height, setHeight] = useState(getHeightOfEmbed(device));
 
   useEffect(() => {
+    setDevice(getDevice());
+    setWidth(getWidthOfEmbed(device));
+    setHeight(getHeightOfEmbed(device));
     injectAlbums(width, height);
-  }, [width, height]);
+  }, [device, width, height]);
 
   useEffect(() => {
     // use mutation observer to detect client width of document.body changes
