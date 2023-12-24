@@ -76,7 +76,7 @@ const Header = ({ className }: Props) => {
             ))}
         </div>
         <Button
-          className="tw-hidden desktop:tw-block"
+          className="tw-hidden"
           variant="action"
           to={REGISTER_URL}
           target="_blank"
