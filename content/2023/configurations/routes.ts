@@ -13,6 +13,10 @@ const routes = [
     name: 'Program',
   },
   {
+    path: '/album',
+    name: 'Album',
+  },
+  {
     path: '/sponsors',
     name: 'Sponsors',
   },
