@@ -1,12 +1,13 @@
 [build]
-  base = "content/2023/"
-  command = "env SITEURL=$DEPLOY_PRIME_URL make html"
-  publish = "output"
-
-[context.production]
-  command = "env SITEURL=$URL make html"
+  publish = "sitemap"
 
 [[redirects]]
-  from = "/register"
-  to = "https://sciwork.kktix.cc/events/sciworkconf-202312-hsinchu"
+  from = "/2023/*"
+  to = "https://conf2023.sciwork.dev/:splat"
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "https://swconf2023.netlify.app/:splat"
+  status = 200
   force = true
