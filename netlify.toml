@@ -7,7 +7,12 @@
   force = true
 
 [[redirects]]
+  from = "/2024/*"
+  to = "https://conf2024.sciwork.dev/:splat"
+  force = true
+
+[[redirects]]
   from = "/*"
-  to = "https://swconf2023.netlify.app/:splat"
+  to = "https://swconf2024.netlify.app/:splat"
   status = 200
   force = true
